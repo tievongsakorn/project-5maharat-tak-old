@@ -1,0 +1,114 @@
+.route_box {
+    border: 3px solid rgb(110, 110, 110);
+    margin: auto;
+    border-radius: 15px;
+    padding: 1em;
+    margin-top: 0.5em;
+    max-width: 90%;
+    -webkit-transition : all 0.1s;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    p {
+        color: black;
+    }
+    img {
+        width: 100%;
+        border-radius: 1em;
+        box-shadow: rgb(129, 129, 129) 0.3em 0.7em 1em 0.1em;
+    }
+}
+.route_box:hover {
+    transition: all 0.1s;
+    border: 3px solid black;
+    transform: scale(1.05);
+    box-shadow: rgb(105, 104, 104) 5px -5px 7px;
+    a {
+        color: black;
+        text-decoration: none;
+    }    
+    .route_name-box {
+        text-shadow: rgb(112, 112, 112) 3px 3px;
+    }
+    img {
+        box-shadow:none;
+        border: 2px solid rgb(255, 255, 255 ,0.5);
+    }
+
+}
+.comment_box {
+    border-bottom: rgb(0, 0, 0,0.5) 1px solid;
+    padding: 0.5em;
+    margin-top: 0.5rem;
+}
+#route_box-1:hover {
+    background-color: rgb(247, 181, 232);
+}
+#route_box-2:hover {
+    background-color: rgb(243, 180, 138);
+}
+#route_box-3:hover {
+    background-color: rgb(75, 73, 206);
+}
+#route_box-4:hover {
+    background-color: #cd8bfa;
+}
+#route_box-5:hover {
+    background-color: rgb(213, 240, 116);
+}
+
+.route_name-box {
+    margin: auto;
+    text-align: center;
+}
+.photo_frame {
+    box-shadow: gray 1em 1em 10px;
+    border: solid 0.5em rgb(239, 120, 243 ,0.5);
+    height: 40vh;
+    width: 30vh;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+  
+
+
+.score-star-avg {
+    color: rgb(245, 232, 50);
+    text-shadow: black 0px 0px 3px ;
+}
+  
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+
+
+// .rate > input:checked + label:hover,
+// .rate > input:checked + label:hover ~ label,
+// .rate > input:checked ~ label:hover,
+// .rate > input:checked ~ label:hover ~ label,
+// .rate > label:hover ~ input:checked ~ label {
+//     color: #c59b08;
+// }

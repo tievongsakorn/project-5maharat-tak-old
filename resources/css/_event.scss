@@ -1,0 +1,46 @@
+.event_row {
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.event_card {
+    transition: all ease 0.1s;
+    justify-content: center;    
+    position: relative;
+    height: 45vh;
+    border: 1px rgb(110, 110, 110) solid;
+    margin: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: #919191 10px 10px 7px;
+    overflow: hidden;
+    color: black;
+    h2 {
+        font-size: 1.5em;
+    }
+    .event_img-frame {
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+    }
+}
+.event_card:hover {
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+    box-shadow: #919191 5px 5px 10px;
+    border: 2px #3661ec solid;
+    z-index: 5;
+
+}
+
+.event_detail-pic {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: gray 5px 5px 5px;
+}
