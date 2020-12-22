@@ -12,7 +12,7 @@ class LoginController extends Controller
 {  
     public function index(Request $request) 
     {
-        return view('pages.member.login');
+        return view('pages.homepage');
     } 
 
     function checklogin(Request $request) {

@@ -3,7 +3,11 @@
 @section('content')
 <div class="container" style="margin-top: 5vh; padding-top : 5vh;padding-bottom : 5vh">
     @if (isset(Auth::user()->username))
-        <h1>ยินดีต้อนรับ {{ Auth::user()->username }} &nbsp;<a href="{{ url('/member/logout') }}"><button class="btn btn-danger">ออกจากระบบ</button></a> </h1>
+        <h1>ยินดีต้อนรับ {{ Auth::user()->username }} &nbsp;
+           
+            <a href="{{ url('/member/logout') }}" class="btn btn-danger">ออกจากระบบ</a>
+            <a class="btn btn-primary" href="{{ url('/member/editprofile/') }}/{{ Auth::user()->username }}">ข้อมูลสมาชิก</a>
+        </h1>
         <div class="row justify-content-center" style="padding-top:1em">
             <div class="col-12">
                 <h3>
