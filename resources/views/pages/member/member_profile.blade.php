@@ -13,7 +13,7 @@
             </tr>
             <tr>
                 <th> รหัสผ่าน </th>
-                <th><a href="">เปลี่ยนรหัสผ่าน</a> </th>
+                <th><a href="{{ url('user_passchange') }}">เปลี่ยนรหัสผ่าน</a> </th>
             </tr>
             
             <tr>

@@ -30,14 +30,14 @@ Route::get('event/{id}', 'App\Http\Controllers\TatapiController@showdetail');
 Route::resources([
     '/user' => 'App\Http\Controllers\UserController',
 ]);
+Route::get('/user_passchange', 'App\Http\Controllers\UserController@user_passchange');
+Route::post('/pass_update', 'App\Http\Controllers\UserController@pass_update');
 Route::get('member', 'App\Http\Controllers\LoginController@index');
 Route::post('/member/checklogin', 'App\Http\Controllers\LoginController@checklogin');
 Route::get('/member/successlogin', 'App\Http\Controllers\LoginController@successlogin');
 Route::get('/member/logout', 'App\Http\Controllers\LoginController@logout');
-
 Route::get('/register', 'App\Http\Controllers\UserController@index');
 Route::get('member/editprofile/{username}', 'App\Http\Controllers\UserController@show');
-
 Route::get('routephorkun', function () {
     return view ('pages.route.routephorkun');
 });
