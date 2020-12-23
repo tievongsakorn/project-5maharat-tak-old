@@ -2,7 +2,12 @@
 <footer>
     <div class="copy">
       <a href="#top-page">กลับขึ้นข้างบน</a>
-      <div class="h5">
+      <h6></h6>
+      <p>นายวงศกร  เกษสุริยงค์ <br> สาขาวิชาเทคโนโลยีสารสนเทค คณะวิทยศาสตร์และเทคโนโลยีการเกษตร <br>
+        มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา ตาก <br>
+        <a href="mailto:vongsakorntie@gmail.com">อีเมล์ติดต่อ : vongsakorntie@gmail.com</a>
+      </p>
+      <div class="h6">
         Copyright Vongsakorn Ketsuriyong Since 2020
       </div>
     </div>

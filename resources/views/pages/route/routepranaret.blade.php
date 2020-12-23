@@ -3,11 +3,11 @@
 <div class="container" style="padding-top: 10vh; padding-bottom:5vh">
     <div class="row">
         <div class="col-12 col-md-6" align="center">
-                <img class="photo_frame" src="{{ asset('img/pkrprofileimg.jpg') }}" width="100%">
+                <img class="photo_frame-2" id="route-2" src="{{ asset('img/route/pro_route2.jpg') }}" width="100%">
         </div>
         <div class="col-12 col-md-6">
-            <h1>พ่อขุนรามคำแหงมหาราช</h1>
-            <p>พ่อขุนรามคำแหงมหาราช หรือ พญาร่วง หรือ พระบาทกมรเตงอัญศรีรามราช[1] เป็นพระมหากษัตริย์พระองค์ที่ 3 ในราชวงศ์พระร่วงแห่งราชอาณาจักรสุโขทัย เสวยราชย์ประมาณ พ.ศ. 1822 ถึงประมาณ พ.ศ. 1842 พระองค์ทรงเป็นกษัตริย์พระองค์แรกของไทยที่ได้รับการยกย่องเป็น "มหาราช" ด้วยทรงบำเพ็ญพระราชกรณียกิจอันทรงคุณประโยชน์แก่แผ่นดิน ทรงรวบรวมอาณาจักรไทยจนเป็นปึกแผ่นกว้างขวาง ทั้งยังได้ทรงประดิษฐ์ตัวอักษรไทยขึ้น ทำให้ชาติไทยได้สะสมความรู้ทางศิลปะ วัฒนธรรม และวิชาการต่าง ๆ สืบทอดกันมากกว่าเจ็ดร้อยปี</p>
+            <h1>เส้นทางสมเด็จพระนเรศวรมหาราช</h1>
+            <p>สมเด็จพระนเรศวรมหาราช มีพระนามเดิมว่าพระนเรศ หรือ "พระองค์ดำ" เป็นพระราชโอรสในสมเด็จพระมหาธรรมราชาธิราชและพระวิสุทธิกษัตรีย์ เสด็จพระราชสมภพเมื่อ พ.ศ. 2098 ที่พระราชวังจันทน์ เมืองพิษณุโลก มีพระเชษฐภคินีคือพระสุพรรณกัลยา มีพระอนุชาคือสมเด็จพระเอกาทศรถ (องค์ขาว) เสด็จขึ้นครองราชย์เมื่อวันที่ 29 กรกฎาคม พ.ศ. 2133 ครองราชสมบัติ 15 ปี เสด็จสวรรคตเมื่อวันที่ 25 เมษายน พ.ศ. 2148 สิริพระชนมพรรษา 49 พรรษา</p>
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <div class="col-12">
@@ -41,7 +41,7 @@
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <center>
-                <img src="{{ asset('img/pkr.PNG') }}" alt="" srcset="" width="100%">
+                <img src="{{ asset('img/route/2.PNG') }}" alt="" srcset="" width="100%">
             </center>
         </div>
         <div class="col-12" style="margin-top: 3em">
@@ -49,7 +49,7 @@
                 <h2>แผนที่สถานที่ในเส้นทาง</h2>
             </center>
             
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pRk2rdeCHCNc2WfZaz9EPwPEGrqXVZ4d"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1DOW5ZN7cI-I05Lj9V7V9jZz9itpyWh0t"></iframe>
         </div>
         
         <div class="col-12" style="margin-top: 3em">

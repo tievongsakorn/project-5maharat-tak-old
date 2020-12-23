@@ -42,7 +42,9 @@
             <a href="{{ url('route/1') }}">
                 <div class="row">
                     <div class="col-3">
-                        <img src="{{ asset('img/1.jpg') }}" alt="" srcset="">
+                        <div class="img_box">
+                        <img src="{{ asset('img/route/home_route.jpg') }}" alt="" srcset="">
+                        </div>
                     </div>
                     <div class="col-9 route_name-box ">
                         <h3>เส้นทางพ่อขุนรามคำแหงมหาราช</h3>
@@ -54,7 +56,9 @@
             <a href="{{ url('route/2') }}">
                 <div class="row">
                     <div class="col-3">
-                            <img src="{{ asset('img/banner4.jpg') }}" alt="" srcset="">
+                        <div class="img_box">
+                            <img src="{{ asset('img/route/pro_route2.jpg') }}" alt="" srcset="">
+                        </div>
                     </div>
                     <div class="col-9 route_name-box" >
                         <h3>เส้นทางสมเด็จพระนเรศวรมหาราช</h3>
@@ -66,7 +70,9 @@
             <a href="{{ url('route/3') }}">
                 <div class="row">
                     <div class="col-3">
-                            <img src="{{ asset('img/3.jpg') }}" alt="" srcset="">
+                        <div class="img_box">
+                            <img src="{{ asset('img/route/pro_route3.jpg') }}" alt="" srcset="">
+                        </div>
                     </div>
                     <div class="col-9 route_name-box" >
                         <h3>เส้นทางพระนารายณ์มหาราช</h3>
@@ -78,7 +84,9 @@
             <a href="{{ url('route/4') }}">
                 <div class="row">
                     <div class="col-3">
-                            <img src="{{ asset('img/1.jpg') }}" alt="" srcset="">
+                        <div class="img_box">
+                            <img src="{{ asset('img/route/pro_route4.jpg') }}" alt="" srcset="">
+                        </div>
                     </div>
                     <div class="col-9 route_name-box" >
                         <h3>เส้นทางสมเด็จพระเจ้าตากสินมหาราช</h3>
@@ -90,7 +98,9 @@
             <a href="{{ url('route/5') }}">
                 <div class="row">
                     <div class="col-3">
-                            <img src="{{ asset('img/banner2.jpg') }}" alt="" srcset="">
+                        <div class="img_box">
+                            <img src="{{ asset('img/route/pro_route5.jpg') }}" alt="" height="100%" srcset="">
+                        </div>
                     </div>
                     <div class="col-9 route_name-box" >
                         <h3>เส้นทางสมเด็จพระมหาภูมิพลอดุลยเดชมหาราช</h3>

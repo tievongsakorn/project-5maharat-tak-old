@@ -3,7 +3,7 @@
 <div class="container" style="padding-top: 10vh; padding-bottom:5vh">
     <div class="row">
         <div class="col-12 col-md-6" align="center">
-                <img class="photo_frame" src="{{ asset('img/pkrprofileimg.jpg') }}" width="100%">
+                <img class="photo_frame-1" src="{{ asset('img/route/pro_route1.jpg') }}" width="100%">
         </div>
         <div class="col-12 col-md-6">
             <h1>พ่อขุนรามคำแหงมหาราช</h1>
@@ -41,7 +41,7 @@
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <center>
-                <img src="{{ asset('img/pkr.PNG') }}" alt="" srcset="" width="100%">
+                <img src="{{ asset('img/route/1.PNG') }}" alt="" srcset="" width="100%">
             </center>
         </div>
         <div class="col-12" style="margin-top: 3em">
@@ -49,7 +49,7 @@
                 <h2>แผนที่สถานที่ในเส้นทาง</h2>
             </center>
             
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pRk2rdeCHCNc2WfZaz9EPwPEGrqXVZ4d"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tyN37Mo3K22FeHqpy7Oex7dkDj9oGOQE"></iframe>
         </div>
         
         <div class="col-12" style="margin-top: 3em">
