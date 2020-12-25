@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
             'name' => 'วงศกร',
             'lastname' => 'เกษสุริยงค์',
             'prov' => 'ตาก',
-            'prov' => 'admin'
+            'status' => 'admin'
         ]);
         
         

@@ -1,8 +1,9 @@
 .detail-carousel {
-    max-height: 50vh;
-    background-color: blanchedalmond;
+    height: 350px;
+    background-color: whitesmoke;
     img {
+        object-fit: cover;
         width: 100%;
-        max-height: 50vh;
+        height: 100%;
     }
 }

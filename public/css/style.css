@@ -507,6 +507,10 @@ footer .copy {
   width: 100%;
 }
 
+#more {
+  display: none;
+}
+
 .route_box:hover {
   transition: all 0.2s;
   border: 3px solid black;
@@ -629,13 +633,15 @@ footer .copy {
 }
 
 .detail-carousel {
-  max-height: 50vh;
-  background-color: blanchedalmond;
+  height: 350px;
+  background-color: whitesmoke;
 }
 
 .detail-carousel img {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
-  max-height: 50vh;
+  height: 100%;
 }
 
 .event_row a {

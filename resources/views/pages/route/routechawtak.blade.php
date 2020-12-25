@@ -13,31 +13,50 @@
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eius?</h2>
-                <table class="table table-bordered">
-                    <thead>
+              <div class="col-12">
+                <h2>รายชื่อสถานที่ในเส้นทาง</h2>
+                <table class="table  table-bordered">
+                    <thead class="thead-dark">
                       <tr>
-                        <th scope="col">เลข</th>
+                        <th scope="col">ลำดับที่</th>
                         <th scope="col">สถานที่</th>
-                        <th scope="col">ชื่อสถานที่</th>
-                        <th scope="col">ประเภท</th>
+                        {{-- <th scope="col">ประเภท</th> --}}
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>ศาลสมเด็จพระเจ้าตากสินมหาราช</td>
+                        {{-- <td></td> --}}
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>กาดนั่งยองคล้องย่าม</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>สะพานสมโภชกรุงรัตน์โกสินทร์ 200 ปี</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>ตรอกบ้านจีน</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>ศาลหลักเมือง 4 มหาราช</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>วัดดอยข่อยเขาแก้ว</td>
+                        {{-- <td>@fat</td> --}}
                       </tr>
                     </tbody>
                   </table>
+            </div>
             </div>
             
         </div>

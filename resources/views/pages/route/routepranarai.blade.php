@@ -10,33 +10,45 @@
             <p>สมเด็จพระนารายณ์มหาราช เสด็จพระราชสมภพเมื่อวันจันทร์ เดือนยี่ ปีวอก พ.ศ. 2175 เป็นพระราชโอรสในสมเด็จพระเจ้าปราสาททอง กับพระราชเทวีไม่ปรากฏพระนาม คำให้การชาวกรุงเก่า ระบุว่าพระชนนีของพระองค์ชื่อพระสุริยา ส่วน คำให้การขุนหลวงหาวัด ระบุพระนามว่าพระอุบลเทวี และหม่อมหลวงมานิจ ชุมสาย ระบุพระนามว่าพระนางศิริธิดา และมีพระขนิษฐาร่วมพระมารดาคือกรมหลวงโยธาทิพ (หรือพระราชกัลยาณี)</p>
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
-            <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eius?</h2>
-                <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th scope="col">เลข</th>
-                        <th scope="col">สถานที่</th>
-                        <th scope="col">ชื่อสถานที่</th>
-                        <th scope="col">ประเภท</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
+          <div class="col-12">
+            <h2>รายชื่อสถานที่ในเส้นทาง</h2>
+            <table class="table  table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">ลำดับที่</th>
+                    <th scope="col">สถานที่</th>
+                    {{-- <th scope="col">ประเภท</th> --}}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>ศาลสมเด็จพระเจ้าตากสินมหาราช</td>
+                    {{-- <td></td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>กาดนั่งยองคล้องย่าม</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>สะพานสมโภชกรุงรัตน์โกสินทร์ 200 ปี</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>ศาลหลักเมือง 4 มหาราช</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>วัดพระนารายณ์</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                </tbody>
+              </table>
+        </div>
             
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">

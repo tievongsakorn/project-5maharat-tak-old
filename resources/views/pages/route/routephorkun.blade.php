@@ -11,33 +11,49 @@
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eius?</h2>
-                <table class="table table-bordered">
-                    <thead>
+                <h2>รายชื่อสถานที่ในเส้นทาง</h2>
+                <table class="table  table-bordered">
+                    <thead class="thead-dark">
                       <tr>
-                        <th scope="col">เลข</th>
+                        <th scope="col">ลำดับที่</th>
                         <th scope="col">สถานที่</th>
-                        <th scope="col">ชื่อสถานที่</th>
-                        <th scope="col">ประเภท</th>
+                        {{-- <th scope="col">ประเภท</th> --}}
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>ศาลสมเด็จพระเจ้าตากสินมหาราช</td>
+                        {{-- <td></td> --}}
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>กาดนั่งยองคล้องย่าม</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>สะพานสมโภชกรุงรัตน์โกสินทร์ 200 ปี</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>อุทยานไม้กลายเป็นหิน</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>วัดพระบรมธาตุ</td>
+                        {{-- <td>@fat</td> --}}
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>เจดีย์ยุธหัตถี</td>
+                        {{-- <td>@fat</td> --}}
                       </tr>
                     </tbody>
                   </table>
             </div>
-            
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <center>
@@ -48,10 +64,8 @@
             <center>
                 <h2>แผนที่สถานที่ในเส้นทาง</h2>
             </center>
-            
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tyN37Mo3K22FeHqpy7Oex7dkDj9oGOQE"></iframe>
         </div>
-        
         <div class="col-12" style="margin-top: 3em">
           <hr>
           <div class="row">
@@ -98,17 +112,13 @@
                             </div>
                           </div>
                         </div>
-                        
-      
                       </div>
                     </div>
                     <textarea type="text" class="  " name="comment_des" id="comment_des" placeholder="" required> </textarea>
                   </div>
                   <input type="hidden" name="route_id" value="1">
-                  
                   <input type="hidden" name="username" value="{{ (Auth::user()->username) }}">
                   {{-- <input type="radio" name="" id=""> --}}
-                  
                   <input type="submit" class="btn btn-primary" value="บันทึก">
                 </form>
                 <hr>
@@ -132,43 +142,40 @@
                 <div class="row">
                   <div class="col-4">
                     <h3>คะแนน <u>{{ $avg_rate_format }}</u></h3> 
-                    
                   </div>
                   <div class="col-6">
                     @if ( $avg_rate_format >= 1 and $avg_rate_format < 2)
-                              {{-- <h5>{{ $avg_rate_format }}</h5> --}}
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                              @elseif ( $avg_rate_format >= 2 and $avg_rate_format < 3)
-                              {{-- <h5>{{ $avg_rate_format }}</h5> --}}
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                              @elseif ( $avg_rate_format >= 3 and $avg_rate_format < 4)
-                              {{-- <h5>{{ $avg_rate_format }}</h5> --}}
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                              @elseif ( $avg_rate_format >= 4 and $avg_rate_format < 5) 
-                              {{-- <h5>{{ $avg_rate_format }}</h5> --}}
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                              @elseif ( $avg_rate_format <=5 )
-                              {{-- <h5>{{ $col->rate }}</h5> --}}
-                                 <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                 <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                 <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                 <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                                 <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
-                              @endif
-                    
+                    {{-- <h5>{{ $avg_rate_format }}</h5> --}}
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                    @elseif ( $avg_rate_format >= 2 and $avg_rate_format < 3)
+                    {{-- <h5>{{ $avg_rate_format }}</h5> --}}
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                    @elseif ( $avg_rate_format >= 3 and $avg_rate_format < 4)
+                    {{-- <h5>{{ $avg_rate_format }}</h5> --}}
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                    @elseif ( $avg_rate_format >= 4 and $avg_rate_format < 5) 
+                    {{-- <h5>{{ $avg_rate_format }}</h5> --}}
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                      <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                    @elseif ( $avg_rate_format <=5 )
+                    {{-- <h5>{{ $col->rate }}</h5> --}}
+                       <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                       <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                       <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                       <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                       <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
+                    @endif
                   </div>
                 </div>
             </div>
           </div>
           <hr>
           <div class="row">
-            
             @if (isset($data))
                 @foreach ($data as $col)
                   <div class="col-12">
@@ -178,7 +185,6 @@
                           <u><h4>{{ $col->username }}</h4></u>
                         </div>
                         <div class="col-12 col-md-7">
-                              
                               @if ( $col->rate >= 1 and $col->rate < 2)
                               {{-- <h5>{{ $col->rate }}</h5> --}}
                                 <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
@@ -206,7 +212,6 @@
                                  <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
                                  <i class="fas fa-star score-star-avg" id="score-star-avg"></i>
                               @endif
-                              
                         </div>
                         <div class="col-12">
                           <p>
@@ -218,10 +223,28 @@
                     </div>
                   </div>
                 @endforeach
-            @else
-                
+                @if ($data->lastPage() > 1)
+                <ul class="pagination ml-auto">
+                    <li class="{{ ($data->currentPage() == 1) ? ' disabled' : '' }} page-item">
+                        <a class=" page-link " href="{{ $data->url(1) }}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    @for ($i = 1; $i <= $data->lastPage(); $i++)
+                        <li class="{{ ($data->currentPage() == $i) ? ' active' : '' }} page-item">
+                            <a class=" page-link " href="{{ $data->url($i) }}">{{ $i }}</a>
+                        </li>
+                    @endfor
+                    <li class="{{ ($data->currentPage() == $data->lastPage()) ? ' disabled' : '' }} page-item">
+                        <a href="{{ $data->url($data->currentPage()+1) }}" class="page-link" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                  </ul>
+                @endif
             @endif
-
           </div>
           
           </div>

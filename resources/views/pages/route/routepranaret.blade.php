@@ -10,33 +10,55 @@
             <p>สมเด็จพระนเรศวรมหาราช มีพระนามเดิมว่าพระนเรศ หรือ "พระองค์ดำ" เป็นพระราชโอรสในสมเด็จพระมหาธรรมราชาธิราชและพระวิสุทธิกษัตรีย์ เสด็จพระราชสมภพเมื่อ พ.ศ. 2098 ที่พระราชวังจันทน์ เมืองพิษณุโลก มีพระเชษฐภคินีคือพระสุพรรณกัลยา มีพระอนุชาคือสมเด็จพระเอกาทศรถ (องค์ขาว) เสด็จขึ้นครองราชย์เมื่อวันที่ 29 กรกฎาคม พ.ศ. 2133 ครองราชสมบัติ 15 ปี เสด็จสวรรคตเมื่อวันที่ 25 เมษายน พ.ศ. 2148 สิริพระชนมพรรษา 49 พรรษา</p>
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
-            <div class="col-12">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eius?</h2>
-                <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th scope="col">เลข</th>
-                        <th scope="col">สถานที่</th>
-                        <th scope="col">ชื่อสถานที่</th>
-                        <th scope="col">ประเภท</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
+          <div class="col-12">
+            <h2>รายชื่อสถานที่ในเส้นทาง</h2>
+            <table class="table  table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">ลำดับที่</th>
+                    <th scope="col">สถานที่</th>
+                    {{-- <th scope="col">ประเภท</th> --}}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>ศาลสมเด็จพระเจ้าตากสินมหาราช</td>
+                    {{-- <td></td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>กาดนั่งยองคล้องย่าม</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>สะพานสมโภชกรุงรัตน์โกสินทร์ 200 ปี</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>ตลาดชาวเขาดอยมูเซอ</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>จุดชมวิวเส้นทาง ตาก-แม่สอด</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>ศาลเจ้าพ่อพระวอ</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>ศาลสมเด็จพระนเรศวรมหาราช</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                </tbody>
+              </table>
+        </div>
             
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">

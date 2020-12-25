@@ -16,7 +16,7 @@
                 @if (isset($places[0]))
                 <div class="member-carousel" data-flickity='{ "percentPosition": false,"pageDots": false, "fade": true}'>
                     @foreach ($places as $data)
-                        <button onclick="location.href='{{ url('member_toppic/'.$data->id.'') }}'" class="carousel-cell">
+                        <button  class="carousel-cell">
                             <div class="member_places-text">
                                 <h1>
                                     {{ $data->place_name }}
@@ -27,6 +27,7 @@
                                 <p>
                                     {{ $data->username }}
                                 </p>
+                                <a onclick="location.href='{{ url('member_toppic/'.$data->id.'') }}'" class="btn btn-success">รายละเอียด</a>
                             </div>
                             <img src="{{ asset('img/banner1.jpg') }}" width="100%">
                         </button>
@@ -38,12 +39,12 @@
                     </div>
                 @endif 
             </div>
-
+            <div class="col-6" style="margin-top: 2em">
+                <a href="{{ url('member_toppic/create') }}" class="btn btn-primary btn-block"> แนะนำสถานที่ </a>
+                <a href="{{ url('myplace/'.Auth::user()->username.'') }}" class="btn btn-warning btn-block"> สถานที่แนะนำของคุณ </a>
+            </div>
         </div>
-        <div class="col-6">
-            <a href="{{ url('member_toppic/create') }}" class="btn btn-primary btn-block"> แนะนำสถานที่ </a>
-            <a href="{{ url('myplace/'.Auth::user()->username.'') }}" class="btn btn-warning btn-block"> สถานที่แนะนำของคุณ </a>
-        </div>
+        
 
     @else    
         <script>window.location = "member"; </script>

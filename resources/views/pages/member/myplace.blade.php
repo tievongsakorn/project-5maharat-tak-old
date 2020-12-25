@@ -33,7 +33,10 @@
                             <td>{{ $place->updated_at }}</td>
                             <td>
                                 <a href="{{ url('member_toppic/'.$place->id.'/edit') }}" class="btn btn-warning">แก้ใข</a>
-                                <a href="{{ url('myplace/del/'.$place->id."") }}" class="btn btn-danger">ลบ</a>
+                                
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#PlaceDelModal">
+                                    ลบสถานที่นี้
+                                  </button>
                             </td>
                         </tr>
                         @endforeach
@@ -41,14 +44,35 @@
                     </tbody>
                 </table>
             </div>
+            <div class="modal fade" id="PlaceDelModal" tabindex="-1" role="dialog" aria-labelledby="PlaceDelModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="PlaceDelModalLabel">ยืนยันการลบ</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <center>
+                            คุณยืนยันที่จะลบสถานที่นี้ใช่หรือไม่
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
+                      <a href="{{ url('myplace/del/'.$place->id."") }}" class="btn btn-danger">ลบ</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
         @else
-        <div class="col-12" style="padding: 1em">
+        < class="col-12" style="padding: 1em">
             <div class="alert alert-info" role="alert">
                 <center>
                     <h4>คุณยังไม่มีสถานที่แนะนำ </h4>
                 </center>
             </div>
-        </div>
+        </>
         @endif
         
 {{--         

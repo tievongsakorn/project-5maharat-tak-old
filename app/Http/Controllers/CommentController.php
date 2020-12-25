@@ -37,7 +37,8 @@ class CommentController extends Controller
     public function show($id) {
         // return dd($id);
         // $data = DB::table('comments')->where('route_id', [$id]);
-        $data = DB::select('select * from comments where route_id = ?',[$id]);
+        $data = comment::where('route_id', '=', [$id])->paginate(5);
+        // $data = DB::select('select * from comments where route_id = ?',[$id])->simplePaginate(10);
         if ($id==1) {
             $pages = "pages.route.routephorkun" ;
         }

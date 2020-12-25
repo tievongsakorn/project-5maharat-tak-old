@@ -35,7 +35,8 @@ class ToppicController extends Controller
             ]
         );
         $member_place->save();
-        return redirect('/member');
+        return redirect('/member_toppic');
+        // return redirect()->back();
     }
     
     public function show($id) {

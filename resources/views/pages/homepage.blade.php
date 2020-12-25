@@ -7,10 +7,9 @@
         <h1> เว็บแอปพลิเคชันแนะนำเส้นทางการท่องเที่ยว 4 มหาราชจังหวัดตาก</h1>
     </div>
         <div class="home-carousel" data-flickity='{ "percentPosition": false ,"wrapAround": true ,"prevNextButtons": false, "autoPlay": 3500 ,"pageDots": false, "fade": true ,"fullscreen": true}'>
-            <img class="carousel-cell" src="{{ asset('img/banner1.jpg') }}" alt="" />
-            <img class="carousel-cell" src="{{ asset('img/banner2.jpg') }}" alt="" />
-            <img class="carousel-cell" src="{{ asset('img/banner3.jpg') }}" alt="" />
-            <img class="carousel-cell" src="{{ asset('img/banner4.jpg') }}" alt="" />
+            <img class="carousel-cell" src="{{ asset('img/banner_1.png') }}" alt="" />
+            <img class="carousel-cell" src="{{ asset('img/banner_2.png') }}" alt="" />
+            <img class="carousel-cell" src="{{ asset('img/banner_3.png') }}" alt="" />
         </div>
 </div>
 
@@ -35,7 +34,6 @@
         <h1 style="padding-bottom:2vh">
              เส้นทางการท่องเที่ยว 4 มหาราช
         </h1>
-       
     </center>
     <div class="row" style="padding-bottom:5vh">
         <div class="col-12 route_box" id="route_box-1">

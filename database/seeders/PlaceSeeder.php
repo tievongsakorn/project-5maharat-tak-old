@@ -28,3 +28,7 @@ class PlaceSeeder extends Seeder
         
     }
 }
+
+
+
+
