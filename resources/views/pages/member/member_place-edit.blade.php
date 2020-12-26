@@ -2,12 +2,12 @@
 @section('content')
     <div class="container" style="margin-top: 0vh;padding-bottom: 5vh">
         @if (isset(Auth::user()->username))
-        <form  action="{{ url('member_toppic/'.$data->id.'') }}" method="POST">
+        <form  action="{{ url('member_toppic/'.$data->id.'') }}" method="POST" enctype="multipart/form-data">
             {{csrf_field()}}
             <input type="hidden" name="_method" value="PUT">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
-                    <div style="margin-top: 8vh;padding-bottom: 2vh" class="h2">แนะนำสถานที่เพื่อนเติมสำหรับสมาชิก</div>
+                    <div style="margin-top: 8vh;padding-bottom: 2vh" class="h2">แก้ใขสถานที่ของคุณ</div>
                     <div class="form-group">
                         <label style="margin-top: 3vh" for="place_name">ชื่อสถานที่</label>
                         <input type="text" class=" form_addplace" name="place_name" id="place_name" value="{{ $data->place_name }}" required>
@@ -27,8 +27,8 @@
                     <input type="hidden" value="{{ Auth::user()->username }}" name="username" id="username">     
                     <div class="input-group">
                         <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
-                        <label class="custom-file-label" for="inputGroupFile04">เลือกรูปภาพของสถานที่</label>
+                        <input type="file" class="custom-file-input" name="place-img" id="place-img" aria-describedby="inputGroupFileAddon04">
+                        <label class="custom-file-label" for="place-img">เลือกรูปภาพของสถานที่</label>
                         </div>
                     </div>
                     <br>

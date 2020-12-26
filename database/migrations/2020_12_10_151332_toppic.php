@@ -18,7 +18,7 @@ class Toppic extends Migration
             $table->string('place_name');
             $table->text('place_detail');
             $table->string('place_type');
-            $table->string('place_photo')->nullable();
+            $table->text('img_path');
             $table->text('map_url');
             $table->string('username');
             $table->timestamps();

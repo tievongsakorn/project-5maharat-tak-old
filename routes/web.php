@@ -25,6 +25,8 @@ Route::get('/detail', function () {
     return view('pages.detail');
 });
 Route::get('event', 'App\Http\Controllers\TatapiController@index');
+Route::get('eventpagenex/{id}', 'App\Http\Controllers\TatapiController@nextpage');
+Route::get('eventpagepre/{id}', 'App\Http\Controllers\TatapiController@prepage');
 Route::get('event/{id}', 'App\Http\Controllers\TatapiController@showdetail');
 
 Route::resources([

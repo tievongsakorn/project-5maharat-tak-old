@@ -29,7 +29,8 @@
                                 </p>
                                 <a onclick="location.href='{{ url('member_toppic/'.$data->id.'') }}'" class="btn btn-success">รายละเอียด</a>
                             </div>
-                            <img src="{{ asset('img/banner1.jpg') }}" width="100%">
+                            <img src="{{ asset($data->img_path) }}" width="100%">
+                            
                         </button>
                 @endforeach
                 </div>
