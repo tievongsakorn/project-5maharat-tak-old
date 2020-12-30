@@ -62,13 +62,7 @@ class TatapiController extends Controller
         else {
             $lastpagechk = '0' ;
             return view('pages.event', compact('data','page','lastpagechk'));
-        }
-
-        // return view('pages.event', [
-        //     'data' => $data ,
-
-        // ]);
-        
+        }        
     }
     public function prepage($id) {
         if ($id == 1) {
@@ -102,7 +96,5 @@ class TatapiController extends Controller
             $lastpagechk = '0' ;
             return view('pages.event', compact('data','page','lastpagechk'));
         }
-
-        
     }
 }
