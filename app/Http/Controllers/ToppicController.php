@@ -72,7 +72,7 @@ class ToppicController extends Controller
         else {
             $path_img = $request->file('place-img')->store('public/img/place-img');
             $path = str_replace("public","storage",$path_img);
-            $member_place -> img_path = $path;
+            $member_place->img_path = $path;
         }
         // return dd($member_place);
         

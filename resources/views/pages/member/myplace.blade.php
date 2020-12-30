@@ -66,13 +66,13 @@
                 </div>
               </div>
         @else
-        < class="col-12" style="padding: 1em">
+        <div class="col-12" style="padding: 1em">
             <div class="alert alert-info" role="alert">
                 <center>
                     <h4>คุณยังไม่มีสถานที่แนะนำ </h4>
                 </center>
             </div>
-        </>
+        </div>
         @endif
         
 {{--         

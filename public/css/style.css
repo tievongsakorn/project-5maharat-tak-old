@@ -469,6 +469,18 @@ footer .copy {
   width: 100%;
 }
 
+@media (max-width: 575.98px) {
+  .overlay_banner h1 {
+    text-shadow: #383838 5px 5px 10px;
+    font-size: 1.3rem;
+  }
+
+  .route_name-box {
+    text-shadow: #707070 3px 3px;
+    padding-top: 3rem;
+  }
+}
+
 .route_box {
   border: 3px solid #6e6e6e;
   margin: auto;

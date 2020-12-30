@@ -3,6 +3,7 @@
 @section('content')
 <div class="container" style="padding-top: 5vh;padding-bottom: 10vh;">
     <h1>ปฏิทินกิจกรรม</h1>      
+    
     <p>ข้อมูลจากการท่องเที่ยวแห่งประเทศไทย</p>
         <div class="row event_row" style="position: relative ;padding-top: 5vh;">
         @foreach ($data as $item)
@@ -28,28 +29,25 @@
         @endforeach
             
         </div>
-        @if ($lastpagechk == '1') 
+        @if ($pre_page === 0) 
         <div class="col-12 mt-5">
             <center>
-                <a href="{{ url('eventpagepre/'.$page.'') }}" class="btn btn-primary">หน้าก่อนหน้า</a>
+                <a href="{{ url('eventpage/'.$page.'') }}" class="btn btn-primary">หน้าต่อไป</a>
             </center>
         </div>
-        @elseif ($lastpagechk == '2') 
-            <div class="col-12 mt-5">
-                <center>
-                    <a href="{{ url('eventpagenex/'.$page.'') }}" class="btn btn-primary">หน้าต่อไป</a>
-                </center>
-            </div>
+        {{-- @elseif ($page_last === 99999) 
+        <div class="col-12 mt-5">
+            <center>
+                <a href="{{ url('eventpage/'.$pre_page.'') }}" class="btn btn-primary"><< หน้าก่อนหน้า</a>
+            </center>
+        </div> --}}
         @else
         <div class="col-12 mt-5">
             <center>
-                <a href="{{ url('eventpagepre/'.$page.'') }}" class="btn btn-primary"><< หน้าก่อนหน้า</a>
-                <a href="{{ url('eventpagenex/'.$page.'') }}" class="btn btn-primary">หน้าต่อไป >></a>
-
+                <a href="{{ url('eventpage/'.$pre_page.'') }}" class="btn btn-primary"><< หน้าก่อนหน้า</a>
+                <a href="{{ url('eventpage/'.$page.'') }}" class="btn btn-primary">หน้าต่อไป >></a>
             </center>
-            
         </div>
         @endif
-        
 </div>
 @endsection

@@ -45,3 +45,15 @@
 
 }
 
+@media (max-width: 575.98px) {
+  .overlay_banner{
+      h1 {
+        text-shadow: rgb(56, 56, 56) 5px 5px 10px;
+        font-size: 1.3rem;
+      }
+  }
+  .route_name-box {
+    text-shadow: rgb(112, 112, 112) 3px 3px;
+    padding-top: 3rem;
+}
+}

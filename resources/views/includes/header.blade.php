@@ -60,7 +60,7 @@
 <nav class="navbar navbar-expand-lg fixed-top static-top bg-nav">
   <div class="container-fluid">
     <a class="navbar-brand " href="{{url('/')}}">          {{-- <img src="{{ asset('img/brand.png') }}" alt="" height="63px"> --}}
-      เส้นทางการท่องเที่ยว <br>&nbsp;&nbsp;&nbsp;4 มหาราชจังหวัดตาก 
+      เส้นทางเชื่อมโยงการท่องเที่ยว <br>&nbsp;&nbsp;&nbsp;4 มหาราชจังหวัดตาก 
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
@@ -81,7 +81,7 @@
           <a class="nav-link  @yield('detail-active')"  href="{{url('detail')}}">ข้อมูลจังหวัดตาก</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link @yield('event-active')"   href="{{url('event')}}">ปฏิทินกิจกรรม</a>
+          <a class="nav-link @yield('event-active')"   href="{{url('eventpage/1')}}">ปฏิทินกิจกรรม</a>
         </li>
         
         @if (isset(Auth::user()->username))

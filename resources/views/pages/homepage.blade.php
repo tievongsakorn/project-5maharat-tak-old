@@ -32,19 +32,20 @@
 
     <center>
         <h1 style="padding-bottom:2vh">
-             เส้นทางการท่องเที่ยว 4 มหาราช
+             เส้นทางเชื่อมโยงการท่องเที่ยว 4 มหาราช
         </h1>
     </center>
+    
     <div class="row" style="padding-bottom:5vh">
         <div class="col-12 route_box" id="route_box-1">
             <a href="{{ url('route/1') }}">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3">
                         <div class="img_box">
                         <img src="{{ asset('img/route/home_route.jpg') }}" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-9 route_name-box ">
+                    <div class="col-12 col-md-9 route_name-box ">
                         <h3>เส้นทางพ่อขุนรามคำแหงมหาราช</h3>
                     </div>
                 </div>
@@ -53,12 +54,12 @@
         <div class="col-12 route_box" id="route_box-2">
             <a href="{{ url('route/2') }}">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3">
                         <div class="img_box">
                             <img src="{{ asset('img/route/pro_route2.jpg') }}" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-9 route_name-box" >
+                    <div class="col-12 col-md-9 route_name-box" >
                         <h3>เส้นทางสมเด็จพระนเรศวรมหาราช</h3>
                     </div>
                 </div>
@@ -67,12 +68,12 @@
         <div class="col-12 route_box " id="route_box-3">
             <a href="{{ url('route/3') }}">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3">
                         <div class="img_box">
                             <img src="{{ asset('img/route/pro_route3.jpg') }}" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-9 route_name-box" >
+                    <div class="col-12 col-md-9 route_name-box" >
                         <h3>เส้นทางพระนารายณ์มหาราช</h3>
                     </div>
                 </div>
@@ -81,12 +82,12 @@
         <div class="col-12 route_box" id="route_box-4">
             <a href="{{ url('route/4') }}">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3">
                         <div class="img_box">
                             <img src="{{ asset('img/route/pro_route4.jpg') }}" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-9 route_name-box" >
+                    <div class="col-12 col-md-9 route_name-box" >
                         <h3>เส้นทางสมเด็จพระเจ้าตากสินมหาราช</h3>
                     </div>
                 </div>
@@ -95,17 +96,23 @@
         <div class="col-12 route_box" id="route_box-5">
             <a href="{{ url('route/5') }}">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3">
                         <div class="img_box">
                             <img src="{{ asset('img/route/pro_route5.jpg') }}" alt="" height="100%" srcset="">
                         </div>
                     </div>
-                    <div class="col-9 route_name-box" >
+                    <div class="col-12 col-md-9 route_name-box" >
                         <h3>เส้นทางสมเด็จพระมหาภูมิพลอดุลยเดชมหาราช</h3>
                     </div>
                 </div>
             </a>
         </div>
+    </div>
+    <div class="col-12">
+        <center>
+            <h1>แผนที่แสดงเส้นทางทั้งหมด</h1>
+        </center>
+        <iframe src="https://www.google.co.th/maps/d/embed?mid=1WZt3UfS16XNujzzvprh6IpDEd6AMusup" width="100%"></iframe>
     </div>
 </div>
 @endsection

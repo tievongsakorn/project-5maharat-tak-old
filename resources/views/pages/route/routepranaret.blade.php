@@ -23,32 +23,32 @@
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>ศาลสมเด็จพระเจ้าตากสินมหาราช</td>
+                    <td>ศาลหลักเมืองสี่มหาราช</td>
                     {{-- <td></td> --}}
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>กาดนั่งยองคล้องย่าม</td>
+                    <td>อุทยานแห่งชาติลานสาง</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>สะพานสมโภชกรุงรัตน์โกสินทร์ 200 ปี</td>
-                    {{-- <td>@fat</td> --}}
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
                     <td>ตลาดชาวเขาดอยมูเซอ</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
-                    <th scope="row">5</th>
+                    <th scope="row">4</th>
                     <td>จุดชมวิวเส้นทาง ตาก-แม่สอด</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
-                    <th scope="row">6</th>
+                    <th scope="row">5</th>
                     <td>ศาลเจ้าพ่อพระวอ</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>ตลาดริมเมย</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
@@ -61,9 +61,27 @@
         </div>
             
         </div>
+        <div class="modal fade" id="photomodal" tabindex="-1" aria-labelledby="photomodalLabel" aria-hidden="true">
+            <div  class="modal-dialog modal-xl">
+              <div class="modal-content" >
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="{{ asset('img/route/2.PNG') }}" alt="" srcset="" width="100%">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
+          
             <center>
-                <img src="{{ asset('img/route/2.PNG') }}" alt="" srcset="" width="100%">
+                <img src="{{ asset('img/route/2.PNG') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
             </center>
         </div>
         <div class="col-12" style="margin-top: 3em">
@@ -71,7 +89,7 @@
                 <h2>แผนที่สถานที่ในเส้นทาง</h2>
             </center>
             
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1DOW5ZN7cI-I05Lj9V7V9jZz9itpyWh0t"></iframe>
+            <iframe src="https://www.google.co.th/maps/d/u/0/embed?mid=1DOW5ZN7cI-I05Lj9V7V9jZz9itpyWh0t"></iframe>
         </div>
         
         <div class="col-12" style="margin-top: 3em">
