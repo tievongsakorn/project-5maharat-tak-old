@@ -22,8 +22,10 @@ Route::get('/', function () {
 });
 
 Route::get('/detail', function () {
-    return view('pages.detail');
+    $places = DB::select('select * from member_places');
+    return view('pages.detail')->with('places', $places);
 });
+
 Route::get('eventpage/{id}', 'App\Http\Controllers\TatapiController@index');
 Route::get('eventpagenex/{id}', 'App\Http\Controllers\TatapiController@nextpage');
 Route::get('eventpagepre/{id}', 'App\Http\Controllers\TatapiController@prepage');

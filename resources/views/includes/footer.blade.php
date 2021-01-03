@@ -14,6 +14,7 @@
   </footer>
   </body>
   </html>
+
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="{{ asset('js/myapp.js') }}"></script>
   <script src="https://kit.fontawesome.com/27eecd2862.js" crossorigin="anonymous"></script>
