@@ -13,8 +13,8 @@
         </div>
 </div>
 
-<div class="container" style="margin-bottom: 2em">
-    <div class="slide-right" style="margin-top : 1em">
+<div class="container">
+    <div class="slide-right">
         {{-- <h1> เว็บแอปพลิเคชันแนะนำเส้นทางการท่องเที่ยว 4 มหาราชจังหวัดตาก</h1> --}}
     </div>
     <div class="row align-items-center">
@@ -37,7 +37,7 @@
     </center>
     
     <div class="row" style="padding-bottom:5vh">
-        <div class="col-12 route_box" id="route_box-1">
+        <div class="col-11 route_box" id="route_box-1">
             <a href="{{ url('route/1') }}">
                 <div class="row">
                     <div class="col-12 col-md-3">
@@ -51,7 +51,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-12 route_box" id="route_box-2">
+        <div class="col-11 route_box" id="route_box-2">
             <a href="{{ url('route/2') }}">
                 <div class="row">
                     <div class="col-12 col-md-3">
@@ -65,7 +65,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-12 route_box " id="route_box-3">
+        <div class="col-11 route_box " id="route_box-3">
             <a href="{{ url('route/3') }}">
                 <div class="row">
                     <div class="col-12 col-md-3">
@@ -79,7 +79,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-12 route_box" id="route_box-4">
+        <div class="col-11 route_box" id="route_box-4">
             <a href="{{ url('route/4') }}">
                 <div class="row">
                     <div class="col-12 col-md-3">
@@ -93,7 +93,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-12 route_box" id="route_box-5">
+        <div class="col-11 route_box" id="route_box-5">
             <a href="{{ url('route/5') }}">
                 <div class="row">
                     <div class="col-12 col-md-3">

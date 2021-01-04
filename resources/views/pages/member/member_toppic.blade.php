@@ -1,7 +1,7 @@
 @extends('weblayouts.default')
 @section('member-active','active')
 @section('content')
-<div class="container" style="margin-top: 5vh; padding-top : 5vh;padding-bottom : 5vh">
+<div class="container" style=" padding-top : 5vh;padding-bottom : 5vh">
     @if (isset(Auth::user()->username))
         <h1>ยินดีต้อนรับ {{ Auth::user()->username }} &nbsp;
            

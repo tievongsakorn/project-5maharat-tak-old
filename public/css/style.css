@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  background-color: #efefef;
+  background-color: rgba(245, 245, 245, 0.548) !important;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   height: 100%;
@@ -111,6 +111,8 @@ nav {
 }
 
 .container {
+  box-shadow: black 0px 0em 3em -1em;
+  padding-bottom: 3.5em;
   background-color: white;
 }
 
@@ -135,14 +137,12 @@ nav {
 }
 
 footer {
-  box-shadow: black 0 -4px 15px -11px;
+  box-shadow: #dddddd 0 -4px 15px -11px;
   position: absolute;
   margin-top: 1em;
-  padding-top: 1.2em;
+  padding-top: 2em;
   margin: auto;
   bottom: -16vh;
-  max-height: 20vh;
-  height: 15vh;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
@@ -595,19 +595,19 @@ footer .copy {
 }
 
 .photo_frame-2 {
-  border: solid 0.5em rgba(240, 181, 55, 0.5);
+  border: solid 0.5em #ffb516;
 }
 
 .photo_frame-3 {
-  border: solid 0.5em rgba(49, 85, 245, 0.5);
+  border: solid 0.5em #3155f5;
 }
 
 .photo_frame-4 {
-  border: solid 0.5em rgba(197, 46, 235, 0.5);
+  border: solid 0.5em #c52eeb;
 }
 
 .photo_frame-5 {
-  border: solid 0.5em rgba(239, 243, 32, 0.5);
+  border: solid 0.5em #fcff30;
 }
 
 .score-star-avg {

@@ -27,7 +27,6 @@ class CommentController extends Controller
                 'rate' => $request->input('rate')
             ]
         );
-        
         $comment->save();
         // return redirect()->action('App\Http\Controllers\CommentController@show', [$id]);
         return redirect()->back();

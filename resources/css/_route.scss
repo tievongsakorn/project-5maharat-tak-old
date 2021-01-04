@@ -83,19 +83,19 @@
 }
 .photo_frame-2 {
     @extend .photo_frame-1 ;
-    border: solid 0.5em rgba(240, 181, 55, 0.5);
+    border: solid 0.5em rgb(255, 181, 22);
 }
 .photo_frame-3 {
     @extend .photo_frame-1 ;
-    border: solid 0.5em rgba(49, 85, 245, 0.5);
+    border: solid 0.5em rgba(49, 85, 245, 1);
 }
 .photo_frame-4 {
     @extend .photo_frame-1 ;
-    border: solid 0.5em rgba(197, 46, 235, 0.5);
+    border: solid 0.5em rgba(197, 46, 235, 1);
 }
 .photo_frame-5 {
     @extend .photo_frame-1 ;
-    border: solid 0.5em rgba(239, 243, 32, 0.5);
+    border: solid 0.5em rgb(252, 255, 48);
 }
 
 .score-star-avg {
