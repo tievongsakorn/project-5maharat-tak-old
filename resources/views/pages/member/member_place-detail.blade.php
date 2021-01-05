@@ -1,6 +1,6 @@
 @extends('weblayouts.default')
 @section('content')
-<div class="container">
+<div class="container" style="padding-bottom: 10em">
     <div class="row justify-content-center" style="padding-top: 5vh">
         <div class="col-12 mb-3">
             <center>
