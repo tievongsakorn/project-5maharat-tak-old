@@ -1,5 +1,10 @@
-@if ($message = Session::get('error'))
 
+ @if ($message = Session::get('error'))
+ <script type="text/javascript">
+  $(document).ready(function(){
+      $('#staticBackdrop').modal('show')
+  })
+ </script>
  @endif
 <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -21,11 +26,6 @@
                   <img src="img/brand.png" alt="" height="170px" srcset="">
               </div>
               @if ($message = Session::get('error'))
-              <script type="text/javascript">
-                $(document).ready(function(){
-                    $('#staticBackdrop').modal('show')
-                })
-               </script>
                   
                 <div class="col-12">
                       <br>
