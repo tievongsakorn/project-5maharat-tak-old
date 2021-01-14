@@ -8,5 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="{{ asset('img/rmutl-logo.ico') }}">
     <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Route 4 Maharaj</title>
