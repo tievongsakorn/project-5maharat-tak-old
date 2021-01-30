@@ -4,7 +4,7 @@
 
 <div class="homepage-container" align="center">
     <div class="overlay_banner slide-right">
-        <h1> เว็บแอปพลิเคชันแนะนำเส้นทางการท่องเที่ยว 4 มหาราชจังหวัดตาก</h1>
+        <h1> เว็บแอปพลิเคชันแนะนำเส้นทางการท่องเที่ยว 5 มหาราชจังหวัดตาก</h1>
     </div>
         <div class="home-carousel" data-flickity='{ "percentPosition": false ,"wrapAround": true ,"prevNextButtons": false, "autoPlay": 3500 ,"pageDots": false, "fade": true ,"fullscreen": true}'>
             <img class="carousel-cell" src="{{ asset('img/banner_1.png') }}" alt="" />
@@ -15,7 +15,7 @@
 
 <div class="container">
     <div class="slide-right">
-        {{-- <h1> เว็บแอปพลิเคชันแนะนำเส้นทางการท่องเที่ยว 4 มหาราชจังหวัดตาก</h1> --}}
+        {{-- <h1> เว็บแอปพลิเคชันแนะนำเส้นทางการท่องเที่ยว 5 มหาราชจังหวัดตาก</h1> --}}
     </div>
     <div class="row align-items-center">
         <div class="col-5">
@@ -32,7 +32,7 @@
 
     <center>
         <h1 style="padding-bottom:2vh">
-             เส้นทางเชื่อมโยงการท่องเที่ยว 4 มหาราช
+             เส้นทางเชื่อมโยงการท่องเที่ยว 5 มหาราช
         </h1>
     </center>
     
