@@ -12,7 +12,7 @@
             <img class="carousel-cell" src="{{ asset('img/banner_3.png') }}" alt="" />
         </div>
 </div>
-
+   
 <div class="container">
     <div class="slide-right">
         {{-- <h1> เว็บแอปพลิเคชันแนะนำเส้นทางการท่องเที่ยว 5 มหาราชจังหวัดตาก</h1> --}}
@@ -25,11 +25,7 @@
             <img src="{{ asset('img/kamkwan.png') }}" width="100%" alt="">
         </div>
     </div>
-    {{-- <p style="margin-left: 5rem; margin-right: 5rem">
-        การท่องเที่ยว หมายถึงการเดินทางเพื่อพักผ่อนหย่อนใจหรือเพื่อความสนุกสนานตื่นเต้นหรือเพื่อหาความรู้ องค์กรการท่องเที่ยวของสหประชาชาติ (อังกฤษ: World Tourism Organization) กำหนดไว้ว่า การท่องเที่ยวหมายถึงการเดินทาง โดยระยะทางมากกว่า 40 กิโลเมตรจากบ้าน เพื่อจุดประสงค์ในการพักผ่อนหย่อนใจ 
-    </p> --}}
-    {{-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pRk2rdeCHCNc2WfZaz9EPwPEGrqXVZ4d"></iframe> --}}
-
+    
     <center>
         <h1 style="padding-bottom:2vh">
              เส้นทางเชื่อมโยงการท่องเที่ยว 5 มหาราช
