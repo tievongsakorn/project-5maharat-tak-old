@@ -61,7 +61,7 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <img src="{{ asset('img/route/1.PNG') }}" alt="" srcset="" width="100%">
+                  <img src="{{ asset('img/route/1.png') }}" alt="" srcset="" width="100%">
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

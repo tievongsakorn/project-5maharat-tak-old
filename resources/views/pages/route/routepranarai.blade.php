@@ -75,7 +75,7 @@
             </div>
           </div>
             <center>
-                <img src="{{ asset('img/route/3.PNG') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
+                <img src="{{ asset('img/route/3.png') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
             </center>
         </div>
         <div class="col-12" style="margin-top: 3em">
