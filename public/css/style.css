@@ -46,6 +46,7 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -65,6 +66,7 @@ body::-webkit-scrollbar-thumb {
 
 .container {
   min-height: 100vh;
+  margin-bottom: 2vh;
 }
 
 .navbar-brand {
@@ -140,9 +142,8 @@ footer {
   box-shadow: #dddddd 0 -4px 15px -11px;
   position: absolute;
   margin-top: 1em;
-  padding-top: 2em;
+  padding-top: 0.8rem;
   margin: auto;
-  bottom: -20vh;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;

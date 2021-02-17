@@ -8,6 +8,11 @@
         <a href="mailto:vongsakorntie@gmail.com">อีเมล์ติดต่อ : vongsakorntie@gmail.com</a>
       </p>
       <div class="h6">
+        <h6>จำนวนผู้เข้าชมเว็บไซต์</h6>
+        <div id="sfcwqqhtgddfg4ab8pcnrjwa9r9g645bnz3"></div>
+        <script type="text/javascript" src="https://counter4.stat.ovh/private/counter.js?c=wqqhtgddfg4ab8pcnrjwa9r9g645bnz3&down=async" async></script>
+        <noscript><a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter4.stat.ovh/private/freecounterstat.php?c=wqqhtgddfg4ab8pcnrjwa9r9g645bnz3" border="0" title="page counter" alt="page counter"></a></noscript>
+
         Copyright Vongsakorn Ketsuriyong Since 2020
       </div>
     </div>

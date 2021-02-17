@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlaceController;
 use App\Http\Controllers\CommentController;
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -70,3 +69,8 @@ Route::resources([
 
 
 Route::get('/route/{id}', [CommentController::class, 'show']);
+
+Route::get('generate', function (){
+    \Illuminate\Support\Facades\Artisan::call('storage:link');
+    echo 'ok';
+});

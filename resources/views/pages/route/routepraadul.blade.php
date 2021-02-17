@@ -79,7 +79,7 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img src="{{ asset('img/route/5.PNG') }}" alt="" srcset="" width="100%">
+                <img src="{{ asset('img/route/5.png') }}" alt="" srcset="" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -89,7 +89,7 @@
         </div>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <center>
-                <img src="{{ asset('img/route/5.PNG') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
+                <img src="{{ asset('img/route/5.png') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
             </center>
         </div>
         <div class="col-12" style="margin-top: 3em">
