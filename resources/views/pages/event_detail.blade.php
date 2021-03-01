@@ -11,7 +11,7 @@
                 <h5><u> วันที่จัด</u> : {{ $data['display_event_period_date'] }}</h5>
                 <h5><u> สถานที่จัดงาน</u> : {{ $data['event_information']['event_introduction'] }}</h5>
                 <h5><u> จังหวัด</u> : {{ $data['location'] }} <br></h5>
-                <h5 class="text-justify">รายละเอียดงาน</h5>
+                {{-- <h5 class="text-justify">รายละเอียดงาน</h5> --}}
                 <u> รายละเอียดงาน </u> : {!! $data['event_information']['event_html_detail'] !!} <br>
                 <br>
                 <h4> <u> ช่องทางการติดต่อ </u></h4>

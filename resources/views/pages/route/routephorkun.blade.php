@@ -43,7 +43,7 @@
                       </tr>
                       <tr>
                         <th scope="row">5</th>
-                        <td>วัดพระบรมธาตุ</td>
+                        <td>เจดีย์ยุธหัตถี</td>
                         {{-- <td>@fat</td> --}}
                       </tr>
                     </tbody>
@@ -72,6 +72,58 @@
             <center>
                 <img src="{{ asset('img/route/1.png') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
             </center>
+        </div>
+        <div class="col-12">
+          <hr>
+        </div>
+        <div class="col-12 mt-3 mb-1" align="center">
+            <h3><u>บรรยากาศสถานที่ในเส้นทาง</u></h3>
+            <span id="dots"></span>
+            <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">แสดงภาพบรรยากาศสถานที่</button>
+            <span id="more">
+              <div class="row route_landscape-row">
+                <div  id="wood" class="col-12">
+                    <h4>อุทยานไม้กลายเป็นหิน</h4>
+                    <iframe src="https://momento360.com/e/u/65ddb603029b4d4f9c639a21fb8c3b28?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=80&size=medium" frameborder="0"></iframe>
+                </div>
+                <div class="col-12">
+                    <h4 id="wadbarom">วัดพระบรมธาตุ</h4>
+                    <iframe src="https://momento360.com/e/u/6ba3abefee0d40f4b8e19f9674d564f0?utm_campaign=embed&utm_source=other&heading=-371.32&pitch=-7.18&field-of-view=75&size=medium" frameborder="0"></iframe>
+                </div>
+                <div class="col-12">
+                    <h4 id="wadbarom">เจดีย์ยุธหัตถี</h4>
+                    <div style="padding-top:1em;padding-bottom:2em;" class="route_carousel" data-flickity='{ "percentPosition": false,"pageDots": false, "fade": true}'>
+                            <button  class="carousel-cell">
+                                <img src="{{ asset('img/route/img-1/jd-4.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-1/jd-2.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-1/jd-3.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-1/jd-1.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-1/jd-5.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-1/jd-6.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-1/jd-7.jpg') }}" width="100%">
+                            </button>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <center>
+                      <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">ซ่อนเนื้อหา</button>
+                    </center>
+                    <hr class="mt-2 mb-2">
+                  </div>
+              </span>
+            </div>
         </div>
         <div class="col-12" style="margin-top: 3em">
             <center>

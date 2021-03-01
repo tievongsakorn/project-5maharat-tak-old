@@ -4,7 +4,7 @@
 <div class="container" style="padding-top: 5vh;padding-bottom: 10vh;">
     <h1>ปฏิทินกิจกรรม</h1>      
     
-    <p>ข้อมูลจากการท่องเที่ยวแห่งประเทศไทย</p>
+    <p>ได้รับการอนุเคราะห์ข้อมูลจากการท่องเที่ยวแห่งประเทศไทย</p>
         <div class="row event_row" style="position: relative ;padding-top: 5vh;">
         @foreach ($data as $item)
             <a href="{{ url('event/'.$item['event_id']) }}" style="text-decoration: none" class="col-12 col-md-6 col-xl-4">

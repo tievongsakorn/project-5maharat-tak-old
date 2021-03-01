@@ -110,5 +110,40 @@
         </center>
         <iframe src="https://www.google.co.th/maps/d/embed?mid=1WZt3UfS16XNujzzvprh6IpDEd6AMusup" width="100%"></iframe>
     </div>
+    <div class="col-12">
+        <div class="row justify-content-center" style="padding-top:1em;">
+          <div class="col-12">
+              <h3>
+                  สถานที่แนะนำจากสมาชิก
+              </h3>
+              @if (isset($places[0]))
+              <div style="padding-top:1em;padding-bottom:2em;" class="member-carousel" data-flickity='{ "percentPosition": false,"pageDots": false, "fade": true}'>
+                  @foreach ($places as $data)
+                      <button  class="carousel-cell">
+                          <div class="member_places-text">
+                              <h1>
+                                  {{ $data->place_name }}
+                              </h1>
+                              <h5>
+                                  {{ $data->place_type }}
+                              </h5>
+                              <p>
+                                  {{ $data->username }}
+                              </p>
+                              <a onclick="location.href='{{ url('member_toppic/'.$data->id.'') }}'" class="btn btn-success">รายละเอียด</a>
+                          </div>
+                          <img src="{{ asset($data->img_path) }}" width="100%">
+                          
+                      </button>
+              @endforeach
+              </div>
+              @else
+                  <div class="alert alert-info" role="alert">
+                      <center><h4>ยังไม่มีสถานที่แนะนำจากสมาชิก</h4></center>
+                  </div>
+              @endif 
+          </div>
+        </div>
+      </div>
 </div>
 @endsection

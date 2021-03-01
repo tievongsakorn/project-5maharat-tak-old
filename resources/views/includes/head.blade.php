@@ -10,4 +10,4 @@
     <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <title>Route 4 Maharaj</title>
+    <title>Route 5 Maharaj Tak</title>

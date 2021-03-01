@@ -128,7 +128,38 @@
     color: #ffc700;    
 }
 
+.route_carousel {
+    margin: 0.5em;
+    .carousel-cell {
+        outline: none;
+        width: 400px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        height: 250px;
+        img {
+            object-fit: cover;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
 
+        }
+    }
+  }
+  #more {
+    display: none;
+    transition: all ease 3s;
+    }
+.route_landscape-row {
+    transition: all ease 3s;
+    h4 {
+        margin-top: 1.2rem;
+        margin-bottom: 1.3rem;
+        text-shadow: black 2px 2px 3px ;
+    }
+}
 // .rate > input:checked + label:hover,
 // .rate > input:checked + label:hover ~ label,
 // .rate > input:checked ~ label:hover,

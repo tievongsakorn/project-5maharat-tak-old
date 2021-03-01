@@ -645,6 +645,44 @@ footer .copy {
   color: #ffc700;
 }
 
+.route_carousel {
+  margin: 0.5em;
+}
+
+.route_carousel .carousel-cell {
+  outline: none;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  height: 250px;
+}
+
+.route_carousel .carousel-cell img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#more {
+  display: none;
+  transition: all ease 3s;
+}
+
+.route_landscape-row {
+  transition: all ease 3s;
+}
+
+.route_landscape-row h4 {
+  margin-top: 1.2rem;
+  margin-bottom: 1.3rem;
+  text-shadow: black 2px 2px 3px;
+}
+
 .detail-carousel {
   height: 350px;
   background-color: whitesmoke;
