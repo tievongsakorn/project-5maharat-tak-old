@@ -28,31 +28,36 @@
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>อุทยานแห่งชาติลานสาง</td>
+                    <td>ศาลเจ้าพ่อหลักเมืองตาก (เก่า)</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>ตลาดชาวเขาดอยมูเซอ</td>
+                    <td>อุทยานแห่งชาติลานสาง</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">4</th>
-                    <td>จุดชมวิวเส้นทาง ตาก-แม่สอด</td>
+                    <td>ตลาดชาวเขาดอยมูเซอ</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">5</th>
-                    <td>ศาลเจ้าพ่อพระวอ</td>
+                    <td>จุดชมวิวเส้นทาง ตาก-แม่สอด</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">6</th>
-                    <td>ตลาดริมเมย</td>
+                    <td>ศาลเจ้าพ่อพระวอ</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">7</th>
+                    <td>ตลาดริมเมย</td>
+                    {{-- <td>@fat</td> --}}
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
                     <td>ศาลสมเด็จพระนเรศวรมหาราช</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
@@ -84,11 +89,59 @@
                 <img src="{{ asset('img/route/2.png') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
             </center>
         </div>
+        <div class="col-12">
+          <hr>
+        </div>
+        <div class="col-12 mt-3 mb-1" align="center">
+            <h3><u>บรรยากาศสถานที่ในเส้นทาง</u></h3>
+            <span id="dots"></span>
+            <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">แสดงภาพบรรยากาศสถานที่</button>
+            <span id="more">
+              <div class="row route_landscape-row">
+                <div class="col-12">
+                    <h4>ศาลเจ้าพ่อหลักเมืองตาก (เก่า)</h4>
+                    <iframe src="https://momento360.com/e/u/42fbacb0cbd344e5bf36bd5b7c446a68?utm_campaign=embed&utm_source=other&heading=-166.36&pitch=1.35&field-of-view=75&size=medium" frameborder="0"></iframe>
+                </div>
+                
+                <div class="col-12">
+                    <h4>ตลาดชาวเขาดอยมูเซอ</h4>
+                    <div style="padding-top:1em;padding-bottom:2em;" class="route_carousel" data-flickity='{ "percentPosition": false,"pageDots": false, "fade": true ,"freeScroll": true , "imagesLoaded": true}'>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-2/mu-1.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-2/mu-2.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-2/mu-3.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-2/mu-4.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-2/mu-5.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-2/mu-6.jpg') }}" width="100%">
+                            </button>
+                            <button  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-2/mu-7.jpg') }}" width="100%">
+                            </button>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <center>
+                      <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">ซ่อนเนื้อหา</button>
+                    </center>
+                    <hr class="mt-2 mb-2">
+                  </div>
+              </span>
+            </div>
+        </div>
         <div class="col-12" style="margin-top: 3em">
             <center>
                 <h2>แผนที่สถานที่ในเส้นทาง</h2>
             </center>
-            
             <iframe src="https://www.google.co.th/maps/d/u/0/embed?mid=1DOW5ZN7cI-I05Lj9V7V9jZz9itpyWh0t"></iframe>
         </div>
         

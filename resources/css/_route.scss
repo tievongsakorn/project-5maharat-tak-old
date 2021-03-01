@@ -129,21 +129,17 @@
 }
 
 .route_carousel {
-    margin: 0.5em;
     .carousel-cell {
         outline: none;
-        width: 400px;
+        width: 500px;
         border: 1px solid white;
         border-radius: 10px;
         background-color: rgb(255, 255, 255);
         overflow: hidden;
-        height: 250px;
+        height: 350px;
         img {
             object-fit: cover;
-            position: absolute;
             width: 100%;
-            left: 0;
-            top: 0;
 
         }
     }

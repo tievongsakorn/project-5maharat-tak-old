@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-12">
                     <h4 id="wadbarom">เจดีย์ยุธหัตถี</h4>
-                    <div style="padding-top:1em;padding-bottom:2em;" class="route_carousel" data-flickity='{ "percentPosition": false,"pageDots": false, "fade": true}'>
+                    <div style="padding-top:1em;padding-bottom:2em;" class="route_carousel" data-flickity='{ "percentPosition": false,"pageDots": false}'>
                             <button  class="carousel-cell">
                                 <img src="{{ asset('img/route/img-1/jd-4.jpg') }}" width="100%">
                             </button>

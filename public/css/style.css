@@ -645,27 +645,20 @@ footer .copy {
   color: #ffc700;
 }
 
-.route_carousel {
-  margin: 0.5em;
-}
-
 .route_carousel .carousel-cell {
   outline: none;
-  width: 400px;
+  width: 500px;
   border: 1px solid white;
   border-radius: 10px;
   background-color: white;
   overflow: hidden;
-  height: 250px;
+  height: 350px;
 }
 
 .route_carousel .carousel-cell img {
   -o-object-fit: cover;
      object-fit: cover;
-  position: absolute;
   width: 100%;
-  left: 0;
-  top: 0;
 }
 
 #more {
