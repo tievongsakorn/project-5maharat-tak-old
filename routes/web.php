@@ -14,15 +14,14 @@ use App\Http\Controllers\CommentController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'App\Http\Controllers\HomeController@index');
 
-
-Route::get('/', function () {
-    $places = DB::select('select * from member_places');
-    return view('pages.homepage')->with('places', $places);
-});
+// Route::get('/', function () {
+//     $places = DB::select('select * from member_places');
+//     return view('pages.homepage')->with('places', $places);
+// });
 
 Route::get('/detail', function () {
-   
     return view('pages.detail');
 });
 
