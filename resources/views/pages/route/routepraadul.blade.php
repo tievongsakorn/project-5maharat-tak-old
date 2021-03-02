@@ -11,16 +11,32 @@
 
               พระองค์เสด็จพระราชสมภพเมื่อวันที่ 5 ธันวาคม พ.ศ. 2470 ที่โรงพยาบาลเมาต์ออเบิร์น เมืองเคมบริดจ์ รัฐแมสซาชูเซตส์ สหรัฐ เป็นพระราชโอรสในสมเด็จพระมหิตลาธิเบศร อดุลยเดชวิกรม พระบรมราชชนก กับสมเด็จพระศรีนครินทราบรมราชชนนี และเป็นพระราชนัดดาในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว กับสมเด็จพระศรีสวรินทิราบรมราชเทวี พระพันวัสสาอัยยิกาเจ้า
               
-              พระองค์เป็นพระมหากษัตริย์ภายใต้รัฐธรรมนูญ และได้ทรงหยุดยั้งการกบฏ เช่น กบฏเมษาฮาวาย ในปี พ.ศ. 2524 และ กบฏทหารนอกราชการ ในปี พ.ศ. 2528 กระนั้น<span id="dots">...</span><span id="more"> ในสมัยของพระองค์ได้มีการทำรัฐประหารโดยทหารหลายคณะ เช่น จอมพลสฤษดิ์ ธนะรัชต์ ในปี พ.ศ. 2500 กับพลเอกสนธิ บุญยรัตกลิน ในปี พ.ศ. 2549 ตลอดระยะเวลา 70 ปี 4 เดือน 4 วัน ที่ทรงครองราชย์ เกิดรัฐประหารโดยกองทัพ 11 ครั้ง รัฐธรรมนูญ 16 ฉบับ และนายกรัฐมนตรี 27 คน
+              พระองค์เป็นพระมหากษัตริย์ภายใต้รัฐธรรมนูญ และได้ทรงหยุดยั้งการกบฏ เช่น กบฏเมษาฮาวาย ในปี พ.ศ. 2524 และ กบฏทหารนอกราชการ ในปี พ.ศ. 2528 กระนั้น<span id="detaildot">...</span><span id="moredetail"> ในสมัยของพระองค์ได้มีการทำรัฐประหารโดยทหารหลายคณะ เช่น จอมพลสฤษดิ์ ธนะรัชต์ ในปี พ.ศ. 2500 กับพลเอกสนธิ บุญยรัตกลิน ในปี พ.ศ. 2549 ตลอดระยะเวลา 70 ปี 4 เดือน 4 วัน ที่ทรงครองราชย์ เกิดรัฐประหารโดยกองทัพ 11 ครั้ง รัฐธรรมนูญ 16 ฉบับ และนายกรัฐมนตรี 27 คน
               
               ประชาชนชาวไทยส่วนใหญ่เคารพพระองค์ อนึ่ง ตามรัฐธรรมนูญ พระมหากษัตริย์ทรงอยู่ในฐานะอันเป็นที่เคารพสักการะ และผู้ใดจะละเมิดมิได้ ส่วนประมวลกฎหมายอาญาบัญญัติไว้ว่า การดูหมิ่น หมิ่นประมาท หรืออาฆาตมาดร้ายพระมหากษัตริย์เป็นความผิดอาญาคณะรัฐมนตรีหลายชุดที่ได้รับการเลือกตั้งมาก็ถูกคณะทหารล้มล้างไปด้วยข้อกล่าวหาว่านักการเมืองผู้ใหญ่หมิ่นพระบรมเดชานุภาพกระนั้น พระองค์เองได้ตรัสเมื่อปี พ.ศ. 2548 ว่า "สาธารณชนพึงวิพากษ์วิจารณ์พระองค์ได้"
               
               พระองค์ทรงเป็นที่สรรเสริญในประเทศไทยเกี่ยวกับพระราชดำริในเรื่องปรัชญาเศรษฐกิจพอเพียง โคฟี แอนนัน เลขาธิการสหประชาชาติ ได้ถวายรางวัลความสำเร็จสูงสุดด้านการพัฒนามนุษย์แด่พระองค์ด้านสินทรัพย์ของพระองค์นิตยสารฟอบส์จัดอันดับให้พระองค์เป็นพระมหากษัตริย์ผู้มีพระราชทรัพย์มากที่สุดในโลก ตั้งแต่ปี พ.ศ. 2551 ถึง พ.ศ. 2556 เมื่อเดือนพฤษภาคม พ.ศ. 2557 พระองค์มีพระราชทรัพย์ 30,000 ล้านดอลล่าร์สหรัฐ (ดูหมายเหตุด้านล่าง)สำนักงานทรัพย์สินส่วนพระมหากษัตริย์นั้นใช้สินทรัพย์เพื่อสวัสดิการสาธารณะ เช่น เพื่อพัฒนาเยาวชน แต่ได้รับการยกเว้นมิต้องจ่ายภาษีและให้เปิดเผยการเงินต่อพระมหากษัตริย์แต่พระองค์เดียวขณะที่พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดชก็ได้ทรงอุทิศพระราชทรัพย์ไปในโครงการพัฒนาประเทศไทยหลายต่อหลายโครงการ โดยเฉพาะในทางเกษตรกรรม สิ่งแวดล้อม สาธารณสุข การส่งเสริมอาชีพ ทรัพยากรน้ำ สวัสดิการทางคมนาคม และสวัสดิการสาธารณ
               นับตั้งแต่เดือนตุลาคม พ.ศ. 2557 พระบาทสมเด็จพระมหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตรเสด็จแปรพระราชฐานไปประทับรักษาพระอาการพระโรคไข้หวัดและพระปัปผาสะอักเสบ ณ อาคารเฉลิมพระเกียรติ โรงพยาบาลศิริราช ตลอดมา แต่พระอาการประชวรได้ทรุดหนักลงตามลำดับ และเสด็จสวรรคตเมื่อวันพฤหัสบดีที่ 13 ตุลาคม พ.ศ. 2559 เวลา 15:52 น. สิริพระชนมพรรษา 88 พรรษา 313 วัน
             </span></p>  
-            <button class="btn btn-primary" onclick="readmorefunction()" id="myBtn">อ่านเพิ่มเติม</button>
+            <button class="btn btn-primary" onclick="moredetailfunction()" id="detailmorebtn">อ่านเพิ่มเติม</button>
           </div>
-        
+        <script>
+          //ไม่ทำงานเมื่ออยู่ในไฟล.js
+          function moredetailfunction() {
+            var detaildot = document.getElementById("detaildot");
+            var moredetail = document.getElementById("moredetail");
+            var detailmorebtn = document.getElementById("detailmorebtn");
+              if (detaildot.style.display === "none") {
+                  detaildot.style.display = "inline";
+                  detailmorebtn.innerHTML = "อ่านต่อ";
+                moredetail.style.display = "none";
+              } else {
+                  detaildot.style.display = "none";
+                  detailmorebtn.innerHTML = "แสดงน้อยลง";
+                moredetail.style.display = "inline";
+              }
+            }
+        </script>
         <div class="col-12 col-md-6" style="margin-top: 3em">
             <div class="col-12">
               <div class="col-12">
@@ -92,14 +108,129 @@
                 <img src="{{ asset('img/route/5.png') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
             </center>
         </div>
+        <div class="col-12">
+          <hr>
+        </div>
+        <div class="col-12 mt-3 mb-1" align="center">
+            <h3><u>บรรยากาศสถานที่ในเส้นทาง</u></h3>
+            <span id="dots"></span>
+            <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">แสดงภาพบรรยากาศสถานที่</button>
+            <span id="more">
+              <div class="row route_landscape-row">
+                <div class="col-12">
+                  <h4>พิพิธภัณฑ์เมืองเฉลิมพระเกียรติ</h4>
+                  <div style="padding-top:1em;padding-bottom:2em;" class="route_carousel" data-flickity='{ "percentPosition": false,"pageDots": false}'>
+                          <div  class="carousel-cell">
+                              <img src="{{ asset('img/route/img-5/k9-1.jpg') }}" width="100%">
+                          </div>
+                          <div  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-5/k9-2.jpg') }}" width="100%">
+                          </div>
+                          <div  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-5/k9-3.jpg') }}" width="100%">
+                          </div>
+                          <div  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-5/k9-4.jpg') }}" width="100%">
+                          </div>
+                          <div  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-5/k9-5.jpg') }}" width="100%">
+                          </div>
+                          <div  class="carousel-cell">
+                          <img src="{{ asset('img/route/img-5/k9-6.jpg') }}" width="100%">
+                          </div>
+                          <div  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-5/k9-7.jpg') }}" width="100%">
+                          </div>
+                          <div  class="carousel-cell">
+                            <img src="{{ asset('img/route/img-5/k9-8.jpg') }}" width="100%">
+                          </div>
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                    <h4>ศาลเจ้าพ่อน้ำดิบ</h4>
+                    <iframe src="https://momento360.com/e/u/54073d1945444d3b95c14179d6452989?utm_campaign=embed&utm_source=other&heading=-177.25&pitch=-7.38&field-of-view=75&size=medium" frameborder="0"></iframe>
+                </div>
+                <div class="col-12">
+                  <h4>ผาสามเงา</h4>
+                  <iframe src="https://momento360.com/e/u/41829868a3cb405597243d59754db8c3?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium" frameborder="0"></iframe>
+              </div>
+              <div class="col-12">
+                <h4>เขื่อนภูมิพล</h4>
+                <iframe src="https://momento360.com/e/u/91e9acf7ecf041808948f3fe0fc61995?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium" frameborder="0"></iframe>
+            </div>
+                
+                  <div class="col-12">
+                    <center>
+                      <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">ซ่อนเนื้อหา</button>
+                    </center>
+                    <hr class="mt-2 mb-2">
+                  </div>
+              </span>
+            </div>
+        </div>
+        <script>
+          function readmorefunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "อ่านเพิ่มเติม";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "แสดงน้อยลง";
+      moreText.style.display = "inline";
+    }
+  }
+  
+        </script>
         <div class="col-12" style="margin-top: 3em">
             <center>
                 <h2>แผนที่สถานที่ในเส้นทาง</h2>
             </center>
-            
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HkXyp6jzxVh_ZdrZFWSsrtiWS7ploArr"></iframe>
         </div>
-        
+        <div class="col-12 route_nav mt-3">
+          <div class="h3 mt-2 mb-2">
+            <center>
+              เส้นทางอื่น ๆ
+            </center>
+          </div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/1') }}">
+                  <button id="btn_route-1" class="btn_route-nav">
+                    เส้นทางพ่อขุนรามคำแหงมหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/2') }}">
+                  <button id="btn_route-2" class="btn_route-nav" >
+                    เส้นทางสมเด็จพระนเรศวรมหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/3') }}">
+                  <button id="btn_route-3" class="btn_route-nav">
+                    เส้นทางสมเด็จพระนารายณ์มหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/4') }}">
+                  <button id="btn_route-4" class="btn_route-nav" >
+                    เส้นทางสมเด็จพระเจ้าตากสินมหาราช
+                  </button> 
+                </a>
+              </div>
+              
+            </div>
+        </div>
         <div class="col-12" style="margin-top: 3em">
           <hr>
           <div class="row">

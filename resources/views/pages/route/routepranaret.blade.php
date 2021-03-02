@@ -144,7 +144,43 @@
             </center>
             <iframe src="https://www.google.co.th/maps/d/u/0/embed?mid=1DOW5ZN7cI-I05Lj9V7V9jZz9itpyWh0t"></iframe>
         </div>
-        
+        <div class="col-12 route_nav mt-3">
+          <div class="h3 mt-2 mb-2">
+            <center>
+              เส้นทางอื่น ๆ
+            </center>
+          </div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/1') }}">
+                  <button id="btn_route-1" class="btn_route-nav">
+                    เส้นทางพ่อขุนรามคำแหงมหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/3') }}">
+                  <button id="btn_route-3" class="btn_route-nav">
+                    เส้นทางสมเด็จพระนารายณ์มหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/4') }}">
+                  <button id="btn_route-4" class="btn_route-nav" >
+                    เส้นทางสมเด็จพระเจ้าตากสินมหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/5') }}">
+                  <button id="btn_route-5" class="btn_route-nav" >
+                    เส้นทางสมเด็จพระมหาภูมิพลอดุลยเดชมหาราช
+                  </button> 
+                </a>
+              </div>
+            </div>
+        </div>
         <div class="col-12" style="margin-top: 3em">
           <hr>
           <div class="row">

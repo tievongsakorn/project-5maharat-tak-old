@@ -17,12 +17,13 @@ use App\Http\Controllers\CommentController;
 
 
 Route::get('/', function () {
-    return view('pages.homepage');
+    $places = DB::select('select * from member_places');
+    return view('pages.homepage')->with('places', $places);
 });
 
 Route::get('/detail', function () {
-    $places = DB::select('select * from member_places');
-    return view('pages.detail')->with('places', $places);
+   
+    return view('pages.detail');
 });
 
 Route::get('eventpage/{id}', 'App\Http\Controllers\TatapiController@index');

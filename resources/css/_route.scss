@@ -27,7 +27,9 @@
         }
     }
 }
-#more {display: none;}
+#moredetail {
+    display: none;
+}
 .route_box:hover {
     transition: all 0.2s;
     border: 3px solid black;
@@ -129,24 +131,24 @@
 }
 
 .route_carousel {
+    overflow: visible;
     .carousel-cell {
         outline: none;
         width: 500px;
-        border: 1px solid white;
-        border-radius: 10px;
+        margin-left: 3em;
+        border-radius: 0.5rem;
         background-color: rgb(255, 255, 255);
-        overflow: hidden;
-        height: 350px;
+        height: 340px;
+        border: none;
         img {
             object-fit: cover;
             width: 100%;
-
         }
     }
   }
   #more {
     display: none;
-    transition: all ease 3s;
+    
     }
 .route_landscape-row {
     transition: all ease 3s;
@@ -155,6 +157,41 @@
         margin-bottom: 1.3rem;
         text-shadow: black 2px 2px 3px ;
     }
+}
+
+.btn_route-nav {
+    width: 100%;
+    height: 4rem;
+    border-radius: 0.5em;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Kanit', sans-serif;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    
+}
+.btn_route-nav:hover {
+    transition: all 0.2s;
+    transform: scale(1.07);
+    transform: translateY(1) ;
+    border: 2px solid rgba(29, 196, 65, 0.5);
+    text-shadow: black 1px 1px 2px;
+}
+#btn_route-1 {
+    border: 2px solid rgb(239, 120, 243 ,0.5);
+}
+#btn_route-2 {
+    border: 2px solid rgb(255, 181, 22);
+}
+#btn_route-3 {
+    border: 2px solid rgba(49, 85, 245, 1);
+}
+#btn_route-4 {
+    border: 2px solid rgba(197, 46, 235, 1);
+}
+#btn_route-5 {
+    border: 2px solid rgb(252, 255, 48);
 }
 // .rate > input:checked + label:hover,
 // .rate > input:checked + label:hover ~ label,

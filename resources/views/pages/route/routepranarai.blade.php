@@ -28,27 +28,29 @@
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>ตลาดนัดริมแม่น้ำปิง</td>
+                    <td>วัดพระนารายณ์</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>สะพานสมโภชกรุงรัตน์โกสินทร์ 200 ปี</td>
+                    <td>หาดทรายทอง</td>
+                    
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">4</th>
-                    <td>กาดนั่งยอง</td>
+                    <td>สะพานสมโภชกรุงรัตน์โกสินทร์ 200 ปี</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">5</th>
-                    <td>หาดทรายทอง</td>
+                    <td>ตลาดนัดริมแม่น้ำปิง</td>
                     {{-- <td>@fat</td> --}}
                   </tr>
                   <tr>
                     <th scope="row">6</th>
-                    <td>วัดพระนารายณ์</td>
+                    <td>กาดนั่งยอง</td>
+
                     {{-- <td>@fat</td> --}}
                   </tr>
                 </tbody>
@@ -78,6 +80,30 @@
                 <img src="{{ asset('img/route/3.png') }}" alt="" srcset="" width="100%" data-toggle="modal"  data-target="#photomodal">
             </center>
         </div>
+        <div class="col-12 mt-3 mb-1" align="center">
+          <h3><u>บรรยากาศสถานที่ในเส้นทาง</u></h3>
+          <span id="dots"></span>
+          <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">แสดงภาพบรรยากาศสถานที่</button>
+          <span id="more">
+            <div class="row route_landscape-row">
+              <div  id="wood" class="col-12">
+                  <h4>สะพานสมโภชกรุงรัตน์โกสินทร์</h4>
+                  <iframe src="https://momento360.com/e/u/159286e3f2764df59ea7012d30757a3f?utm_campaign=embed&utm_source=other&heading=-298.8&pitch=-9.03&field-of-view=75&size=medium" frameborder="0"></iframe>
+              </div>
+              <div class="col-12">
+                  <h4 id="wadbarom">กาดนั่งยองคล้องย่าม</h4>
+                  <iframe src="https://momento360.com/e/u/b59c431124694862a184d2c43fd06590?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium" frameborder="0"></iframe>
+              </div>
+             
+                <div class="col-12">
+                  <center>
+                    <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">ซ่อนเนื้อหา</button>
+                  </center>
+                  <hr class="mt-2 mb-2">
+                </div>
+            </span>
+          </div>
+      </div>
         <div class="col-12" style="margin-top: 3em">
             <center>
                 <h2>แผนที่สถานที่ในเส้นทาง</h2>
@@ -85,7 +111,43 @@
             
             <iframe src="https://www.google.co.th/maps/d/embed?mid=1pRk2rdeCHCNc2WfZaz9EPwPEGrqXVZ4d"></iframe>
         </div>
-        
+        <div class="col-12 route_nav mt-3">
+          <div class="h3 mt-2 mb-2">
+            <center>
+              เส้นทางอื่น ๆ
+            </center>
+          </div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/1') }}">
+                  <button id="btn_route-1" class="btn_route-nav">
+                    เส้นทางพ่อขุนรามคำแหงมหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/2') }}">
+                  <button id="btn_route-2" class="btn_route-nav">
+                    เส้นทางสมเด็จพระนเรศวรมหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/4') }}">
+                  <button id="btn_route-4" class="btn_route-nav" >
+                    เส้นทางสมเด็จพระเจ้าตากสินมหาราช
+                  </button> 
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                <a href="{{ url('route/5') }}">
+                  <button id="btn_route-5" class="btn_route-nav" >
+                    เส้นทางสมเด็จพระมหาภูมิพลอดุลยเดชมหาราช
+                  </button> 
+                </a>
+              </div>
+            </div>
+        </div>
         <div class="col-12" style="margin-top: 3em">
           <hr>
           <div class="row">
