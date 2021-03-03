@@ -11,7 +11,7 @@
                 <div class="event_card">
                         <h2>{{ $item['event_name'] }}</h2>
                     <div class="event_detail">
-                        <p>
+                        <p class="event_predetail">
                             {{ $item['event_introduction'] }} 
                         </p>
                         <p>
@@ -21,8 +21,14 @@
                             {{ $item['location'] }}
                         </p>
                     </div>
+                    {{-- {{ dd($item['thumbnail_url'])  }} --}}
+                    
                     <div class="event_img-frame">
-                        <img src="{{ $item['thumbnail_url'] }}" width="100%" alt="">
+                        @if ($item['thumbnail_url'] !== "")
+                            <img src="{{ $item['thumbnail_url'] }}" width="100%" alt="">
+                        @else
+                            <img src="{{ asset('img/no-event-img.png') }}" width="100%" alt="">
+                        @endif
                     </div>
                 </div>
             </a>

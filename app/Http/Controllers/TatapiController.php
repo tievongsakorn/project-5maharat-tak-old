@@ -15,11 +15,10 @@ class TatapiController extends Controller
             'Accept-Language' => 'th'
         ])->get('https://tatapi.tourismthailand.org/tatapi/v5/events',
         [
-            'geolocation' => '16.884021, 99.125264',
+            'geolocation' => '16.877669508607713, 99.11880442126743',
             'sortby' => 'distance',
             'numberOfResult' => '18',
             'pagenumber' => $id,
-            'filterByUpdateDate' => '',
         ])->json();
         if(isset($response['result'] )) {
             $data = $response['result'] ;

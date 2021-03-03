@@ -754,14 +754,24 @@ footer .copy {
 
 .event_card h2 {
   font-size: 1.5em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.event_card .event_predetail {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .event_card .event_img-frame {
   height: 200px;
-  width: 100%;
+  width: 102%;
   position: absolute;
-  bottom: -5px;
-  left: 0;
+  bottom: -7px;
+  left: -2px;
+  border-top: rgba(206, 206, 206, 0.733) 1px solid;
 }
 
 .event_card:hover {
