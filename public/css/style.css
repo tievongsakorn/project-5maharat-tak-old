@@ -141,8 +141,8 @@ nav {
 footer {
   box-shadow: #dddddd 0 -4px 15px -11px;
   position: absolute;
-  margin-top: 1em;
-  padding-top: 0.8rem;
+  margin-top: 0.2rem;
+  padding-top: 0.3rem;
   margin: auto;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
@@ -165,6 +165,10 @@ footer .copy {
 .slide-right h1 {
   -webkit-animation: 1.5s slide-right ease-in-out;
           animation: 1.5s slide-right ease-in-out;
+}
+
+.report {
+  min-height: 100vh;
 }
 
 @-webkit-keyframes slide-right {

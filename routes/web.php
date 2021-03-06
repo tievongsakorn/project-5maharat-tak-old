@@ -74,3 +74,7 @@ Route::get('generate', function (){
     \Illuminate\Support\Facades\Artisan::call('storage:link');
     echo 'ok';
 });
+
+Route::get('report', function () {
+    return view ('pages.report');
+});
