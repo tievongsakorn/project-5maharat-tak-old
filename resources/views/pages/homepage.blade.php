@@ -110,6 +110,12 @@
         </center>
         <iframe src="https://www.google.co.th/maps/d/embed?mid=1WZt3UfS16XNujzzvprh6IpDEd6AMusup" width="100%"></iframe>
     </div>
+    <div class="col-12 mt-3 mb-3">
+        <center>
+            <p style="color: rgb(90, 90, 90)"> ** Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sit, recusandae ipsa ipsam temporibus quis vitae accusantium ratione sapiente voluptatum, iusto at similique omnis voluptates consequuntur mollitia unde. Accusantium, quidem.</p>
+        </center>
+        
+    </div>
     <div class="col-12">
         <div class="row justify-content-center" style="padding-top:1em;">
           <div class="col-12">

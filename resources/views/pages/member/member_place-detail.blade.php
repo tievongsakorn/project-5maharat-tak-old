@@ -35,6 +35,13 @@
             </h4>
                 {!! $data->place_detail !!} <br><br><br>
         </div>
+        <div class="col-12 mt-5">
+            <h5>
+                เว็บไซต์ : <a href="//{{  $data->place_web  }} " target="_blank">{!! $data->place_web !!} </a>
+            </h5>
+            
+                <br><br><br>
+        </div>
                 
                
         <div class="col-12">

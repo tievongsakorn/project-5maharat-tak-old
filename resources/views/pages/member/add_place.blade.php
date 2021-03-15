@@ -21,6 +21,11 @@
                         <input type="text" class=" form_addplace" name="place_type" id="place_type" placeholder="กรุณากรอกประเภทของสถานที่" required>
                     </div>
                     <div class="form-group">
+                        <label style="margin-top: 2vh" for="place_web">เว็บไซต์ของสถานที่</label>
+                        <textarea type="textarea" class=" form_addplace" name="place_web" id="place_web" placeholder="กรุณากรอกเว็บไซต์ของสถานที่" required></textarea>
+                        <p style="color: blue">** หากไม่มีเว็บไซต์ให้กรอกว่าไม่มี หรือ ใช้ - แทน</p>
+                    </div>
+                    <div class="form-group">
                         <label style="margin-top: 2vh" for="map_url">ลิงก์แผนที่จาก Google Map</label>
                         <textarea type="textarea" class=" form_addplace" name="map_url" id="map_url" placeholder="กรุณากรอกประเภทของสถานที่" required></textarea>
                     </div>

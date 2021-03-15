@@ -23,6 +23,7 @@ class ToppicController extends Controller
             'place_detail' => 'required',
             'place_type' => 'required',
             'map_url' => 'required',
+            'place_web' => 'required',
             'username'=> 'required', 
         ]);
         if ($request->file('place-img')== null) {
@@ -49,6 +50,7 @@ class ToppicController extends Controller
         $member_place -> place_type = $request->input('place_type');
         $member_place -> img_path = $path;
         $member_place -> map_url = $request->input('map_url');
+        $member_place -> place_web = $request->input('place_web');
         $member_place -> username = $request->input('username');
         $member_place->save();
         return redirect('/member_toppic');
