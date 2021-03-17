@@ -98,15 +98,60 @@
                   <div  class="carousel-cell">
                     <img src="{{ asset('img/route/img-1/center4m3.jpg') }}" width="100%">
                   </div>
-                  <div  class="carousel-cell">
+                  {{-- <div  class="carousel-cell">
                     <img src="{{ asset('img/route/img-1/center4m4.jpg') }}" width="100%">
-                  </div>
+                  </div> --}}
                 </div>
                 <center>
                   <p style="color: rgb(117, 117, 117)">ข้อมูลจาก : thailandtourismdirectory.go.th</p>
                 </center>
             </div>
-                  
+            <div class="col-12">
+              <h4>วัดพระนารายณ์</h4>
+              <div style="padding-top:1em;padding-bottom:2em;" class="route_carousel" data-flickity='{ "percentPosition": false,"pageDots": false}'>
+                <div  class="carousel-cell">
+                    <img src="{{ asset('img/route/img-3/wad1.png') }}" width="100%">
+                </div>
+                <div  class="carousel-cell">
+                  <img src="{{ asset('img/route/img-3/wad2.png') }}" width="100%">
+                </div>
+                <div  class="carousel-cell">
+                  <img src="{{ asset('img/route/img-3/wad3.png') }}" width="100%">
+                </div>
+                <div  class="carousel-cell">
+                  <img src="{{ asset('img/route/img-3/wad4.png') }}" width="100%">
+                </div>
+              </div>
+              <center>
+                <p style="color: rgb(117, 117, 117)">ข้อมูลจาก : Google Map</p>
+              </center>
+          </div>
+          <div class="col-12">
+            <h4>หาดทรายทอง</h4>
+            <div style="padding-top:1em;padding-bottom:2em;" class="route_carousel" data-flickity='{ "percentPosition": false,"pageDots": false}'>
+              <div  class="carousel-cell">
+                  <img src="{{ asset('img/route/img-3/hadsai1.jpg') }}" width="100%">
+              </div>
+              <div  class="carousel-cell">
+                <img src="{{ asset('img/route/img-3/hadsai2.jpg') }}" width="100%">
+              </div>
+              <div  class="carousel-cell">
+                <img src="{{ asset('img/route/img-3/hadsai3.jpg') }}" width="100%">
+              </div>
+              <div  class="carousel-cell">
+                <img src="{{ asset('img/route/img-3/hadsai4.jpg') }}" width="100%">
+              </div>
+              <div  class="carousel-cell">
+                <img src="{{ asset('img/route/img-3/hadsai5.jpg') }}" width="100%">
+              </div>
+              <div  class="carousel-cell">
+                <img src="{{ asset('img/route/img-3/hadsai6.jpg') }}" width="100%">
+              </div>
+            </div>
+            <center>
+              <p style="color: rgb(117, 117, 117)">ข้อมูลจาก : www.thai-tour.com</p>
+            </center>
+        </div>
               <div  id="wood" class="col-12">
                   <h4>สะพานสมโภชกรุงรัตน์โกสินทร์</h4>
                   <iframe src="https://momento360.com/e/u/159286e3f2764df59ea7012d30757a3f?utm_campaign=embed&utm_source=other&heading=-298.8&pitch=-9.03&field-of-view=75&size=medium" frameborder="0"></iframe>
@@ -117,9 +162,7 @@
               </div>
              
                 <div class="col-12">
-                  <center>
-                    <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">ซ่อนเนื้อหา</button>
-                  </center>
+                 
                   <hr class="mt-2 mb-2">
                 </div>
             {{-- </span> --}}

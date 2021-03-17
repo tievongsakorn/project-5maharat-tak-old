@@ -140,15 +140,24 @@
         background-color: rgb(255, 255, 255);
         height: 340px;
         border: none;
+        object-fit: fill;
         img {
             object-fit: cover;
             width: 100%;
         }
     }
   }
+  @media only screen and (min-width: 600px) {
+    .route_carousel {
+        .carousel-cell {
+            img {
+            height: 350px;
+            }
+        }
+      }
+  }
   #more {
     display: none;
-    
     }
 .route_landscape-row {
     transition: all ease 3s;

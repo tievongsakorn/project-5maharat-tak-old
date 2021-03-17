@@ -112,7 +112,7 @@
     </div>
     <div class="col-12 mt-3 mb-3">
         <center>
-            <p style="color: rgb(90, 90, 90)"> ** Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sit, recusandae ipsa ipsam temporibus quis vitae accusantium ratione sapiente voluptatum, iusto at similique omnis voluptates consequuntur mollitia unde. Accusantium, quidem.</p>
+            <p class="mean_text" style="color: rgb(90, 90, 90)"> <span>*** </span>เส้นทางเชื่อมโยงการท่องเที่ยว เป็นการแนะนำเส้นทางและสถานที่ท่องเที่ยวในจังหวัดตาก แต่ละเส้นทางจะประกอบไปด้วย สถานที่เกี่ยวข้องกับ 5 มหาราชแต่ละพระองค์ สถานที่ท่องเที่ยวไกล้เคียง หรือ สถานที่ท่องเที่ยวที่น่าสนใจระหว่างเส้นทาง บางสถานที่อาจจะไม่ได้เกี่ยวของกับประวัติศาสตร์ของ 5 มหาราช โดยตรง แต่เป็นการแนะนำเพื่อให้ท่านสามารถเลือกเที่ยวในเส้นทางได้อย่างน่าสนใจ</p>
         </center>
         
     </div>

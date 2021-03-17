@@ -160,7 +160,17 @@ footer {
 .flickity-prev-next-button .next {
   z-index: 9999;
 }
-
+.mean_text {
+  font-weight: 400;
+  color: rgb(56, 56, 56);
+  background-color: rgba(104, 160, 243, 0.685);
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: rgb(146, 146, 146) 4px 6px 10px ;
+  span {
+    color: red;
+  }
+}
 $purple-main : rgb(163, 115, 184);
 @import "login";
 @import "member";

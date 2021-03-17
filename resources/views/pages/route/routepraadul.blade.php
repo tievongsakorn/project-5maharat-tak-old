@@ -113,9 +113,9 @@
         </div>
         <div class="col-12 mt-3 mb-1" align="center">
             <h3><u>บรรยากาศสถานที่ในเส้นทาง</u></h3>
-            <span id="dots"></span>
-            <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">แสดงภาพบรรยากาศสถานที่</button>
-            <span id="more">
+            {{-- <span id="dots"></span> --}}
+            {{-- <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">แสดงภาพบรรยากาศสถานที่</button> --}}
+            {{-- <span id="more"> --}}
               <div class="row route_landscape-row">
                 <div class="col-12">
                   <h4>ศาลหลักเมืองสี่มหาราช</h4>
@@ -176,11 +176,11 @@
                 
                   <div class="col-12">
                     <center>
-                      <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">ซ่อนเนื้อหา</button>
+                      {{-- <button onclick="readmorebtn()" class="btn btn-success mt-2 mb-2" id="myBtn">ซ่อนเนื้อหา</button> --}}
                     </center>
                     <hr class="mt-2 mb-2">
                   </div>
-              </span>
+              {{-- </span> --}}
             </div>
         </div>
         <script>

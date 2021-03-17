@@ -195,6 +195,19 @@ footer .copy {
   z-index: 9999;
 }
 
+.mean_text {
+  font-weight: 400;
+  color: #383838;
+  background-color: rgba(104, 160, 243, 0.685);
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: #929292 4px 6px 10px;
+}
+
+.mean_text span {
+  color: red;
+}
+
 #login {
   background-color: #efefef;
 }
@@ -661,12 +674,20 @@ footer .copy {
   background-color: white;
   height: 340px;
   border: none;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .route_carousel .carousel-cell img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .route_carousel .carousel-cell img {
+    height: 350px;
+  }
 }
 
 #more {
